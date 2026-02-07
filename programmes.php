@@ -288,7 +288,7 @@
                         <div class="iest-enrolment-cta">
                             <h2 class="iest-enrolment-title">Begin Your Academic Journey with IEST</h2>
                             <p class="iest-enrolment-subtitle">Take the next step toward your educational and career goals. Our admissions team is ready to guide you through programme selection, application procedures, and enrolment requirements.</p>
-                            <a href="contact.html" class="btn iest-enrolment-btn">Contact Admissions</a>
+                            <a href="contact" class="btn iest-enrolment-btn">Contact Admissions</a>
                         </div>
                     </div>
                 </div>

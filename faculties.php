@@ -1344,7 +1344,7 @@
                         <div class="iest-cta">
                             <h2 class="iest-cta-title">Explore Your Academic Path at IEST</h2>
                             <p class="iest-cta-subtitle">Find the perfect programme that matches your interests and career goals. Our academic advisors are ready to guide you through the admissions process.</p>
-                            <a href="contact.html" class="btn iest-cta-btn">Contact Admissions</a>
+                            <a href="contact" class="btn iest-cta-btn">Contact Admissions</a>
                         </div>
                     </div>
                 </div>
