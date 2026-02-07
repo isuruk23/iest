@@ -1,6 +1,6 @@
 <ul class="navbar-nav ms-auto">
                             <li class="nav-item">
-                                <a class="nav-link iest-nav-link active" href="index">Home</a>
+                                <a class="nav-link iest-nav-link active" href="/">Home</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link iest-nav-link" href="about">About</a>
