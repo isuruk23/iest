@@ -1,0 +1,2394 @@
+        .iest-site {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #333;
+        }
+        
+        /* Header/Navbar styles */
+        .iest-site .iest-navbar {
+            background-color: rgb(14, 36, 86);
+            backdrop-filter: blur(10px);
+            border-bottom: 1px solid rgba(26, 95, 122, 0.1);
+            transition: all 0.3s ease;
+        }
+        
+        .iest-site .iest-navbar.scrolled {
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+        }
+        
+        .iest-site .iest-navbar-brand {
+            font-weight: 700;
+            color: #fff !important;
+            font-size: 1rem;
+        }
+        
+        .iest-site .iest-navbar-brand i {
+            color: #ff7e30;
+        }
+        
+        .iest-site .iest-nav-link {
+            font-weight: 500;
+            color: #fff !important;
+            margin: 0 0.5rem;
+            padding: 0.5rem 0.8rem !important;
+            border-radius: 4px;
+            transition: all 0.3s ease;
+        }
+        
+        .iest-site .iest-nav-link:hover,
+        .iest-site .iest-nav-link.active {
+            font-weight: 600 !important;
+            color: #1a5f7a !important;
+            background-color: rgba(26, 95, 122, 0.05);
+        }
+        
+        /* Hero Carousel Swiper Styles */
+        .iest-site .iest-hero-slider {
+            height: 85vh;
+            min-height: 600px;
+            width: 100%;
+        }
+        
+        .iest-site .iest-hero-slide {
+            position: relative;
+            height: 100%;
+            background-size: cover;
+            background-position: center;
+        }
+        
+        .iest-site .iest-hero-overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(to right, rgba(26, 95, 122, 0.85), rgba(26, 95, 122, 0.7));
+            display: flex;
+            align-items: center;
+            padding: 2rem;
+        }
+        
+        .iest-site .iest-hero-content {
+            max-width: 800px;
+            color: white;
+        }
+        
+        .iest-site .iest-hero-title {
+            font-size: 3.2rem;
+            font-weight: 700;
+            margin-bottom: 1.5rem;
+            line-height: 1.2;
+        }
+        
+        .iest-site .iest-hero-subtitle {
+            font-size: 1.3rem;
+            margin-bottom: 2.5rem;
+            opacity: 0.95;
+            line-height: 1.6;
+        }
+        
+        .iest-site .iest-hero-btn {
+            background-color: #ff7e30;
+            border: none;
+            padding: 0.9rem 2.8rem;
+            font-weight: 600;
+            font-size: 1.1rem;
+            border-radius: 4px;
+            transition: all 0.3s ease;
+        }
+        
+        .iest-site .iest-hero-btn:hover {
+            background-color: #e56b1f;
+            transform: translateY(-3px);
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+        }
+        
+        /* Section Common Styles */
+        .iest-site .iest-section {
+            padding: 5rem 0;
+        }
+        
+        .iest-site .iest-section-title {
+            font-size: 2.2rem;
+            font-weight: 700;
+            color: #1a5f7a;
+            margin-bottom: 1rem;
+            position: relative;
+            display: inline-block;
+        }
+        
+        .iest-site .iest-section-title::after {
+            content: '';
+            position: absolute;
+            bottom: -10px;
+            left: 0;
+            width: 60px;
+            height: 4px;
+            background-color: #ff7e30;
+            border-radius: 2px;
+        }
+        
+        .iest-site .iest-section-subtitle {
+            color: #666;
+            font-size: 1.1rem;
+            margin-bottom: 3rem;
+            max-width: 700px;
+        }
+        
+        .iest-site .iest-section-light {
+            background-color: #f8fafc;
+        }
+        
+        /* About Section */
+        .iest-site .iest-page-header {
+            /* background: linear-gradient(rgba(26, 95, 122, 0.85), rgba(26, 95, 122, 0.9)), 
+                        url('https://images.unsplash.com/photo-1523050854058-8df90110c9f1?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1770&q=80'); */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-size: cover;
+            background-position: center;
+            color: white;
+            padding: 8rem 0 4rem;
+            position: relative;
+            height: 500px;
+            background-repeat: no-repeat;
+        }
+        
+        .iest-site .iest-page-title {
+            font-size: 3rem;
+            font-weight: 700;
+            margin-bottom: 1rem;
+            line-height: 1.2;
+        }
+        
+        .iest-site .iest-breadcrumb {
+            background-color: transparent;
+            padding: 0;
+            margin-bottom: 0;
+        }
+        
+        .iest-site .iest-breadcrumb-item {
+            color: rgba(255, 255, 255, 0.8);
+        }
+        
+        .iest-site .iest-breadcrumb-item.active {
+            color: white;
+            font-weight: 500;
+        }
+        
+        .iest-site .iest-breadcrumb-item a {
+            color: rgba(255, 255, 255, 0.9);
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+        
+        .iest-site .iest-breadcrumb-item a:hover {
+            color: #ff7e30;
+        }
+        
+        .iest-site .iest-breadcrumb-item + .iest-breadcrumb-item::before {
+            color: rgba(255, 255, 255, 0.6);
+            content: "›";
+        }
+        
+        /* Section Common Styles */
+        .iest-site .iest-section {
+            padding: 5rem 0;
+        }
+        
+        .iest-site .iest-section-light {
+            background-color: #f8fafc;
+        }
+        
+        .iest-site .iest-section-title {
+            font-size: 2.2rem;
+            font-weight: 700;
+            color: #1a5f7a;
+            margin-bottom: 1.5rem;
+            position: relative;
+            display: inline-block;
+        }
+        
+        .iest-site .iest-section-title::after {
+            content: '';
+            position: absolute;
+            bottom: -10px;
+            left: 0;
+            width: 60px;
+            height: 4px;
+            background-color: #ff7e30;
+            border-radius: 2px;
+        }
+        
+        .iest-site .iest-section-subtitle {
+            color: #666;
+            font-size: 1.1rem;
+            margin-bottom: 2rem;
+            max-width: 700px;
+        }
+        .iest-site .iest-about-text {
+            font-size: 1.05rem;
+            line-height: 1.8;
+            color: #555;
+        }
+        
+        .iest-site .iest-about-img {
+            border-radius: 8px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+            width: 100%;
+            height: 350px;
+            object-fit: cover;
+        }
+        
+        /* Faculty Cards */
+        .iest-site .iest-faculty-card {
+            background: white;
+            border-radius: 10px;
+            padding: 2rem 1.5rem;
+            height: 100%;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+            border: 1px solid rgba(26, 95, 122, 0.1);
+            transition: all 0.3s ease;
+        }
+        
+        .iest-site .iest-faculty-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+            border-color: rgba(26, 95, 122, 0.2);
+        }
+        
+        .iest-site .iest-faculty-icon {
+            width: 70px;
+            height: 70px;
+            border-radius: 50%;
+            background-color: rgba(26, 95, 122, 0.1);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 0 auto 1.5rem;
+        }
+        
+        .iest-site .iest-faculty-icon i {
+            font-size: 1.8rem;
+            color: #1a5f7a;
+        }
+        
+        .iest-site .iest-faculty-title {
+            font-size: 1.3rem;
+            font-weight: 600;
+            color: #1a5f7a;
+            margin-bottom: 0.8rem;
+            text-align: center;
+        }
+        
+        .iest-site .iest-faculty-desc {
+            color: #666;
+            text-align: center;
+            font-size: 0.95rem;
+        }
+        
+        /* Programme Cards */
+        .iest-site .iest-programme-card {
+            background: white;
+            border-radius: 10px;
+            padding: 2.5rem 2rem;
+            height: 100%;
+            border: 1px solid rgba(26, 95, 122, 0.1);
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+            transition: all 0.3s ease;
+        }
+        
+        .iest-site .iest-programme-card:hover {
+            border-color: #1a5f7a;
+            box-shadow: 0 10px 25px rgba(26, 95, 122, 0.1);
+        }
+        
+        .iest-site .iest-programme-icon {
+            width: 60px;
+            height: 60px;
+            border-radius: 50%;
+            background-color: rgba(26, 95, 122, 0.1);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 1.5rem;
+        }
+        
+        .iest-site .iest-programme-icon i {
+            font-size: 1.5rem;
+            color: #1a5f7a;
+        }
+        
+        .iest-site .iest-programme-title {
+            font-size: 1.4rem;
+            font-weight: 600;
+            color: #1a5f7a;
+            margin-bottom: 1rem;
+        }
+        
+        .iest-site .iest-programme-desc {
+            color: #666;
+            margin-bottom: 1.5rem;
+        }
+        
+        .iest-site .iest-programme-btn {
+            background-color: transparent;
+            color: #1a5f7a;
+            border: 2px solid #1a5f7a;
+            padding: 0.5rem 1.5rem;
+            border-radius: 4px;
+            font-weight: 600;
+            transition: all 0.3s ease;
+        }
+        
+        .iest-site .iest-programme-btn:hover {
+            background-color: #1a5f7a;
+            color: white;
+        }
+        
+        /* Study Modes */
+        .iest-site .iest-study-card {
+            background: white;
+            border-radius: 10px;
+            padding: 2.5rem 2rem;
+            height: 100%;
+            text-align: center;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+            border: 1px solid rgba(26, 95, 122, 0.1);
+            transition: all 0.3s ease;
+        }
+        
+        .iest-site .iest-study-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 15px 30px rgba(0, 0, 0, 0.08);
+            border-color: rgba(26, 95, 122, 0.2);
+        }
+        
+        .iest-site .iest-study-icon {
+            font-size: 2.8rem;
+            color: #1a5f7a;
+            margin-bottom: 1.5rem;
+        }
+        
+        .iest-site .iest-study-title {
+            font-size: 1.3rem;
+            font-weight: 600;
+            color: #1a5f7a;
+            margin-bottom: 1rem;
+        }
+        
+        .iest-site .iest-study-desc {
+            color: #666;
+        }
+        
+        /* Why Choose IEST */
+        .iest-site .iest-why-item {
+            display: flex;
+            align-items: flex-start;
+            margin-bottom: 1.5rem;
+        }
+        
+        .iest-site .iest-why-icon {
+            width: 30px;
+            height: 30px;
+            border-radius: 50%;
+            background-color: rgba(40, 167, 69, 0.1);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-right: 1rem;
+            flex-shrink: 0;
+        }
+        
+        .iest-site .iest-why-icon i {
+            color: #28a745;
+            font-size: 0.9rem;
+        }
+        
+        .iest-site .iest-why-text {
+            color: #555;
+            font-size: 1.05rem;
+        }
+        
+        /* Call to Action */
+        .iest-site .iest-cta {
+            background: linear-gradient(135deg, #1a5f7a 0%, #0d3c4f 100%);
+            color: white;
+            padding: 5rem 0;
+            text-align: center;
+        }
+        
+        .iest-site .iest-cta-title {
+            font-size: 2.5rem;
+            font-weight: 700;
+            margin-bottom: 1.5rem;
+        }
+        
+        .iest-site .iest-cta-subtitle {
+            font-size: 1.2rem;
+            margin-bottom: 2.5rem;
+            opacity: 0.9;
+            max-width: 700px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        
+        .iest-site .iest-cta-btn {
+            background-color: #ff7e30;
+            border: none;
+            padding: 1rem 3rem;
+            font-weight: 600;
+            font-size: 1.1rem;
+            border-radius: 4px;
+            transition: all 0.3s ease;
+        }
+        
+        .iest-site .iest-cta-btn:hover {
+            background-color: #e56b1f;
+            transform: translateY(-3px);
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+        }
+        
+        /* Footer */
+        .iest-site .iest-footer {
+            background-color: #0a2d3a;
+            color: #ccc;
+            padding: 3rem 0 1.5rem;
+        }
+        
+        .iest-site .iest-footer-title {
+            font-size: 1.4rem;
+            font-weight: 600;
+            color: white;
+            margin-bottom: 1.5rem;
+        }
+        
+        .iest-site .iest-footer-contact {
+            margin-bottom: 1.5rem;
+        }
+        
+        .iest-site .iest-footer-contact p {
+            margin-bottom: 0.5rem;
+        }
+        
+        .iest-site .iest-footer-contact i {
+            color: #ff7e30;
+            margin-right: 0.8rem;
+            width: 20px;
+        }
+        
+        .iest-site .iest-copyright {
+            border-top: 1px solid rgba(255, 255, 255, 0.1);
+            padding-top: 1.5rem;
+            margin-top: 2rem;
+            text-align: center;
+            color: #999;
+            font-size: 0.9rem;
+        }
+        
+        /* Swiper.js Custom Styles (Scoped to .iest-site) */
+        .iest-site .swiper {
+            padding: 10px 10px 40px !important;
+        }
+        
+        .iest-site .swiper-button-next,
+        .iest-site .swiper-button-prev {
+            color: #1a5f7a !important;
+            background-color: rgba(255, 255, 255, 0.9);
+            width: 50px !important;
+            height: 50px !important;
+            border-radius: 50%;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+        }
+        
+        .iest-site .swiper-button-next::after,
+        .iest-site .swiper-button-prev::after {
+            font-size: 1.2rem !important;
+            font-weight: bold;
+        }
+        
+        .iest-site .swiper-pagination-bullet {
+            background-color: #1a5f7a !important;
+            opacity: 0.5;
+            width: 12px !important;
+            height: 12px !important;
+        }
+        
+        .iest-site .swiper-pagination-bullet-active {
+            opacity: 1;
+        }
+        
+        .iest-site .swiper-pagination {
+            bottom: 10px !important;
+        }
+        
+        /* Hero Slider Specific Styles */
+        .iest-site .iest-hero-slider .swiper-pagination-bullet {
+            background-color: white !important;
+            opacity: 0.7;
+        }
+        
+        .iest-site .iest-hero-slider .swiper-pagination-bullet-active {
+            opacity: 1;
+            background-color: #ff7e30 !important;
+        }
+        
+        .iest-site .iest-hero-slider .swiper-button-next,
+        .iest-site .iest-hero-slider .swiper-button-prev {
+            color: white !important;
+            background-color: rgba(26, 95, 122, 0.7);
+        }
+        
+        /* Responsive Adjustments */
+        @media (max-width: 992px) {
+            .iest-site .iest-hero-slider {
+                height: 70vh;
+                min-height: 500px;
+            }
+            
+            .iest-site .iest-hero-title {
+                font-size: 2.5rem;
+            }
+            
+            .iest-site .iest-section {
+                padding: 4rem 0;
+            }
+        }
+        
+        @media (max-width: 768px) {
+            .iest-site .iest-hero-slider {
+                height: 60vh;
+                min-height: 400px;
+            }
+            
+            .iest-site .iest-hero-title {
+                font-size: 2rem;
+            }
+            
+            .iest-site .iest-hero-subtitle {
+                font-size: 1.1rem;
+            }
+            
+            .iest-site .iest-section {
+                padding: 3rem 0;
+            }
+            
+            .iest-site .iest-section-title {
+                font-size: 1.8rem;
+            }
+            
+            .iest-site .iest-cta-title {
+                font-size: 2rem;
+            }
+        }
+        
+        @media (max-width: 576px) {
+            .iest-site .iest-hero-overlay {
+                padding: 1.5rem;
+            }
+            
+            .iest-site .iest-hero-title {
+                font-size: 1.8rem;
+            }
+        }
+
+        /* About Content */
+        .iest-site .iest-about-text {
+            font-size: 1.05rem;
+            line-height: 1.8;
+            color: #555;
+        }
+        
+        .iest-site .iest-about-img {
+            border-radius: 8px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+            width: 100%;
+            height: 350px;
+            object-fit: cover;
+        }
+        
+        /* Vision Section */
+        .iest-site .iest-vision-card {
+            background: linear-gradient(135deg, rgba(26, 95, 122, 0.05) 0%, rgba(26, 95, 122, 0.1) 100%);
+            border: none;
+            border-radius: 10px;
+            padding: 3rem;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+            border-left: 5px solid #1a5f7a;
+        }
+        
+        .iest-site .iest-vision-icon {
+            font-size: 2.5rem;
+            color: #1a5f7a;
+            margin-bottom: 1.5rem;
+        }
+        
+        .iest-site .iest-vision-text {
+            font-size: 1.2rem;
+            line-height: 1.8;
+            color: #444;
+            font-style: italic;
+        }
+        
+        /* Mission Section */
+        .iest-site .iest-mission-card {
+            background-color: white;
+            border-radius: 10px;
+            padding: 2.5rem;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+            border: 1px solid rgba(26, 95, 122, 0.1);
+            height: 100%;
+        }
+        
+        .iest-site .iest-mission-list {
+            list-style-type: none;
+            padding-left: 0;
+        }
+        
+        .iest-site .iest-mission-list li {
+            padding: 0.8rem 0;
+            border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+            display: flex;
+            align-items: flex-start;
+        }
+        
+        .iest-site .iest-mission-list li:last-child {
+            border-bottom: none;
+        }
+        
+        .iest-site .iest-mission-icon {
+            color: #ff7e30;
+            margin-right: 1rem;
+            margin-top: 0.2rem;
+            flex-shrink: 0;
+        }
+        
+        .iest-site .iest-mission-text {
+            color: #555;
+            line-height: 1.6;
+        }
+        
+        /* Academic Approach */
+        .iest-site .iest-approach-item {
+            display: flex;
+            align-items: flex-start;
+            margin-bottom: 2rem;
+        }
+        
+        .iest-site .iest-approach-number {
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            background-color: #1a5f7a;
+            color: white;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: 700;
+            margin-right: 1.5rem;
+            flex-shrink: 0;
+        }
+        
+        .iest-site .iest-approach-content h4 {
+            color: #1a5f7a;
+            font-weight: 600;
+            margin-bottom: 0.5rem;
+        }
+        
+        .iest-site .iest-approach-content p {
+            color: #555;
+            line-height: 1.7;
+        }
+        
+        /* Values Section */
+        .iest-site .iest-value-card {
+            background-color: white;
+            border-radius: 10px;
+            padding: 2.5rem 2rem;
+            text-align: center;
+            height: 100%;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+            border: 1px solid rgba(26, 95, 122, 0.1);
+            transition: all 0.3s ease;
+        }
+        
+        .iest-site .iest-value-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 15px 30px rgba(0, 0, 0, 0.08);
+            border-color: rgba(26, 95, 122, 0.2);
+        }
+        
+        .iest-site .iest-value-icon {
+            width: 70px;
+            height: 70px;
+            border-radius: 50%;
+            background-color: rgba(26, 95, 122, 0.1);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 0 auto 1.5rem;
+        }
+        
+        .iest-site .iest-value-icon i {
+            font-size: 1.8rem;
+            color: #1a5f7a;
+        }
+        
+        .iest-site .iest-value-title {
+            font-size: 1.3rem;
+            font-weight: 600;
+            color: #1a5f7a;
+            margin-bottom: 1rem;
+        }
+        
+        .iest-site .iest-value-desc {
+            color: #666;
+            font-size: 0.95rem;
+        }
+        
+        /* Future Commitment */
+        .iest-site .iest-future-content {
+            background-color: white;
+            border-radius: 10px;
+            padding: 2.5rem;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+            border: 1px solid rgba(26, 95, 122, 0.1);
+        }
+        
+        .iest-site .iest-future-list {
+            list-style-type: none;
+            padding-left: 0;
+        }
+        
+        .iest-site .iest-future-list li {
+            padding: 0.7rem 0;
+            border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+            display: flex;
+            align-items: flex-start;
+        }
+        
+        .iest-site .iest-future-list li:last-child {
+            border-bottom: none;
+        }
+        
+        .iest-site .iest-future-icon {
+            color: #28a745;
+            margin-right: 1rem;
+            margin-top: 0.2rem;
+            flex-shrink: 0;
+        }
+        
+        /* Call to Action */
+        .iest-site .iest-cta {
+            background: linear-gradient(135deg, #1a5f7a 0%, #0d3c4f 100%);
+            color: white;
+            padding: 5rem 0;
+            text-align: center;
+        }
+        
+        .iest-site .iest-cta-title {
+            font-size: 2.5rem;
+            font-weight: 700;
+            margin-bottom: 1.5rem;
+        }
+        
+        .iest-site .iest-cta-subtitle {
+            font-size: 1.2rem;
+            margin-bottom: 2.5rem;
+            opacity: 0.9;
+            max-width: 700px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        
+        .iest-site .iest-cta-btn {
+            background-color: #ff7e30;
+            border: none;
+            padding: 1rem 3rem;
+            font-weight: 600;
+            font-size: 1.1rem;
+            border-radius: 4px;
+            transition: all 0.3s ease;
+        }
+        
+        .iest-site .iest-cta-btn:hover {
+            background-color: #e56b1f;
+            transform: translateY(-3px);
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+        }
+        
+        /* Footer */
+        .iest-site .iest-footer {
+            background-color: #0a2d3a;
+            color: #ccc;
+            padding: 3rem 0 1.5rem;
+        }
+        
+        .iest-site .iest-footer-title {
+            font-size: 1.4rem;
+            font-weight: 600;
+            color: white;
+            margin-bottom: 1.5rem;
+        }
+        
+        .iest-site .iest-footer-contact {
+            margin-bottom: 1.5rem;
+        }
+        
+        .iest-site .iest-footer-contact p {
+            margin-bottom: 0.5rem;
+        }
+        
+        .iest-site .iest-footer-contact i {
+            color: #ff7e30;
+            margin-right: 0.8rem;
+            width: 20px;
+        }
+        
+        .iest-site .iest-copyright {
+            border-top: 1px solid rgba(255, 255, 255, 0.1);
+            padding-top: 1.5rem;
+            margin-top: 2rem;
+            text-align: center;
+            color: #999;
+            font-size: 0.9rem;
+        }
+        
+        /* Responsive Adjustments */
+        @media (max-width: 992px) {
+            .iest-site .iest-page-title {
+                font-size: 2.5rem;
+            }
+            
+            .iest-site .iest-section {
+                padding: 4rem 0;
+            }
+        }
+        
+        @media (max-width: 768px) {
+            .iest-site .iest-page-header {
+                padding: 6rem 0 3rem;
+            }
+            
+            .iest-site .iest-page-title {
+                font-size: 2rem;
+            }
+            
+            .iest-site .iest-section {
+                padding: 3rem 0;
+            }
+            
+            .iest-site .iest-section-title {
+                font-size: 1.8rem;
+            }
+            
+            .iest-site .iest-cta-title {
+                font-size: 2rem;
+            }
+            
+            .iest-site .iest-vision-card,
+            .iest-site .iest-mission-card,
+            .iest-site .iest-future-content {
+                padding: 2rem 1.5rem;
+            }
+        }
+        
+        @media (max-width: 576px) {
+            .iest-site .iest-page-title {
+                font-size: 1.8rem;
+            }
+            
+            .iest-site .iest-approach-item {
+                flex-direction: column;
+            }
+            
+            .iest-site .iest-approach-number {
+                margin-bottom: 1rem;
+                margin-right: 0;
+            }
+        }
+
+
+            /* Faculty Cards */
+        .iest-site .iest-faculty-card {
+            background-color: white;
+            border-radius: 10px;
+            padding: 2.5rem 2rem;
+            height: 100%;
+            text-align: center;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+            border: 1px solid rgba(26, 95, 122, 0.1);
+            transition: all 0.3s ease;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        
+        .iest-site .iest-faculty-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+            border-color: rgba(26, 95, 122, 0.2);
+        }
+        
+        .iest-site .iest-faculty-icon {
+            width: 80px;
+            height: 80px;
+            border-radius: 50%;
+            background-color: rgba(26, 95, 122, 0.1);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 1.5rem;
+        }
+        
+        .iest-site .iest-faculty-icon i {
+            font-size: 2rem;
+            color: #1a5f7a;
+        }
+        
+        .iest-site .iest-faculty-title {
+            font-size: 1.4rem;
+            font-weight: 600;
+            color: #1a5f7a;
+            margin-bottom: 1rem;
+        }
+        
+        .iest-site .iest-faculty-desc {
+            color: #666;
+            margin-bottom: 1.5rem;
+            line-height: 1.6;
+            flex-grow: 1;
+        }
+        
+        .iest-site .iest-faculty-btn {
+            background-color: transparent;
+            color: #1a5f7a;
+            border: 2px solid #1a5f7a;
+            padding: 0.5rem 1.5rem;
+            border-radius: 4px;
+            font-weight: 600;
+            transition: all 0.3s ease;
+            margin-top: auto;
+        }
+        
+        .iest-site .iest-faculty-btn:hover {
+            background-color: #1a5f7a;
+            color: white;
+        }
+        
+        /* Academic Excellence Section */
+        .iest-site .iest-excellence-card {
+            background-color: white;
+            border-radius: 10px;
+            padding: 2.5rem 2rem;
+            height: 100%;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+            border: 1px solid rgba(26, 95, 122, 0.1);
+            transition: all 0.3s ease;
+        }
+        
+        .iest-site .iest-excellence-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+            border-color: rgba(26, 95, 122, 0.2);
+        }
+        
+        .iest-site .iest-excellence-icon {
+            width: 60px;
+            height: 60px;
+            border-radius: 50%;
+            background-color: rgba(26, 95, 122, 0.1);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 1.5rem;
+        }
+        
+        .iest-site .iest-excellence-icon i {
+            font-size: 1.5rem;
+            color: #1a5f7a;
+        }
+        
+        .iest-site .iest-excellence-title {
+            font-size: 1.3rem;
+            font-weight: 600;
+            color: #1a5f7a;
+            margin-bottom: 1rem;
+        }
+        
+        .iest-site .iest-excellence-desc {
+            color: #555;
+            line-height: 1.7;
+        }
+        
+        /* Study Pathways CTA */
+        .iest-site .iest-pathways-cta {
+            background: linear-gradient(135deg, #1a5f7a 0%, #0d3c4f 100%);
+            color: white;
+            padding: 5rem 0;
+            text-align: center;
+            border-radius: 10px;
+        }
+        
+        .iest-site .iest-pathways-title {
+            font-size: 2.2rem;
+            font-weight: 700;
+            margin-bottom: 1.5rem;
+        }
+        
+        .iest-site .iest-pathways-subtitle {
+            font-size: 1.2rem;
+            margin-bottom: 2.5rem;
+            opacity: 0.9;
+            max-width: 700px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        
+        .iest-site .iest-pathways-btn {
+            background-color: #ff7e30;
+            border: none;
+            padding: 1rem 3rem;
+            font-weight: 600;
+            font-size: 1.1rem;
+            border-radius: 4px;
+            transition: all 0.3s ease;
+        }
+        
+        .iest-site .iest-pathways-btn:hover {
+            background-color: #e56b1f;
+            transform: translateY(-3px);
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+        }
+        
+        /* Footer */
+        .iest-site .iest-footer {
+            background-color: #0a2d3a;
+            color: #ccc;
+            padding: 3rem 0 1.5rem;
+        }
+        
+        .iest-site .iest-footer-title {
+            font-size: 1.4rem;
+            font-weight: 600;
+            color: white;
+            margin-bottom: 1.5rem;
+        }
+        
+        .iest-site .iest-footer-contact {
+            margin-bottom: 1.5rem;
+        }
+        
+        .iest-site .iest-footer-contact p {
+            margin-bottom: 0.5rem;
+        }
+        
+        .iest-site .iest-footer-contact i {
+            color: #ff7e30;
+            margin-right: 0.8rem;
+            width: 20px;
+        }
+        
+        .iest-site .iest-copyright {
+            border-top: 1px solid rgba(255, 255, 255, 0.1);
+            padding-top: 1.5rem;
+            margin-top: 2rem;
+            text-align: center;
+            color: #999;
+            font-size: 0.9rem;
+        }
+        
+        /* Responsive Adjustments */
+        @media (max-width: 992px) {
+            .iest-site .iest-page-title {
+                font-size: 2.5rem;
+            }
+            
+            .iest-site .iest-section {
+                padding: 4rem 0;
+            }
+            
+            .iest-site .iest-faculty-card {
+                padding: 2rem 1.5rem;
+            }
+        }
+        
+        @media (max-width: 768px) {
+            .iest-site .iest-page-header {
+                padding: 6rem 0 3rem;
+            }
+            
+            .iest-site .iest-page-title {
+                font-size: 2rem;
+            }
+            
+            .iest-site .iest-page-subtitle {
+                font-size: 1.1rem;
+            }
+            
+            .iest-site .iest-section {
+                padding: 3rem 0;
+            }
+            
+            .iest-site .iest-section-title {
+                font-size: 1.8rem;
+            }
+            
+            .iest-site .iest-pathways-title {
+                font-size: 1.8rem;
+            }
+            
+            .iest-site .iest-faculty-icon {
+                width: 70px;
+                height: 70px;
+            }
+            
+            .iest-site .iest-faculty-icon i {
+                font-size: 1.8rem;
+            }
+        }
+        
+        @media (max-width: 576px) {
+            .iest-site .iest-page-title {
+                font-size: 1.8rem;
+            }
+            
+            .iest-site .iest-faculty-card {
+                padding: 1.8rem 1.2rem;
+            }
+            
+            .iest-site .iest-faculty-title {
+                font-size: 1.3rem;
+            }
+        }
+
+          /* Faculty Cards */
+        .iest-site .iest-faculty-card {
+            background-color: white;
+            border-radius: 10px;
+            padding: 2.5rem;
+            height: 100%;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+            border: 1px solid rgba(26, 95, 122, 0.1);
+            transition: all 0.3s ease;
+        }
+        
+        .iest-site .iest-faculty-card:hover {
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+            border-color: rgba(26, 95, 122, 0.2);
+        }
+        
+        .iest-site .iest-faculty-header {
+            display: flex;
+            align-items: center;
+            margin-bottom: 2rem;
+            padding-bottom: 1.5rem;
+            border-bottom: 1px solid rgba(26, 95, 122, 0.1);
+        }
+        
+        .iest-site .iest-faculty-icon {
+            width: 60px;
+            height: 60px;
+            border-radius: 50%;
+            background-color: rgba(26, 95, 122, 0.1);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-right: 1.5rem;
+            flex-shrink: 0;
+        }
+        
+        .iest-site .iest-faculty-icon i {
+            font-size: 1.5rem;
+            color: #1a5f7a;
+        }
+        
+        .iest-site .iest-faculty-title {
+            font-size: 1.6rem;
+            font-weight: 700;
+            color: #1a5f7a;
+            margin-bottom: 0.5rem;
+        }
+        
+        /* Departments List */
+        .iest-site .iest-departments-list {
+            list-style-type: none;
+            padding-left: 0;
+            margin-bottom: 0;
+        }
+        
+        .iest-site .iest-department-item {
+            padding: 1rem 0;
+            border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+            display: flex;
+            align-items: flex-start;
+            transition: all 0.3s ease;
+        }
+        
+        .iest-site .iest-department-item:hover {
+            background-color: rgba(26, 95, 122, 0.02);
+            padding-left: 0.5rem;
+        }
+        
+        .iest-site .iest-department-item:last-child {
+            border-bottom: none;
+        }
+        
+        .iest-site .iest-department-icon {
+            color: #ff7e30;
+            margin-right: 1rem;
+            margin-top: 0.2rem;
+            flex-shrink: 0;
+            width: 20px;
+        }
+        
+        .iest-site .iest-department-name {
+            color: #444;
+            font-weight: 500;
+            font-size: 1.05rem;
+        }
+        
+        /* Academic Integration Section */
+        .iest-site .iest-integration-card {
+            background-color: white;
+            border-radius: 10px;
+            padding: 3rem;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+            border: 1px solid rgba(26, 95, 122, 0.1);
+        }
+        
+        .iest-site .iest-integration-icon {
+            width: 70px;
+            height: 70px;
+            border-radius: 50%;
+            background-color: rgba(26, 95, 122, 0.1);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 0 auto 1.5rem;
+        }
+        
+        .iest-site .iest-integration-icon i {
+            font-size: 1.8rem;
+            color: #1a5f7a;
+        }
+        
+        .iest-site .iest-integration-title {
+            font-size: 1.5rem;
+            font-weight: 600;
+            color: #1a5f7a;
+            margin-bottom: 1.5rem;
+            text-align: center;
+        }
+        
+        .iest-site .iest-integration-text {
+            color: #555;
+            line-height: 1.8;
+        }
+        
+        /* Call-to-Action */
+        .iest-site .iest-cta {
+            background: linear-gradient(135deg, #1a5f7a 0%, #0d3c4f 100%);
+            color: white;
+            padding: 5rem 0;
+            text-align: center;
+            border-radius: 10px;
+        }
+        
+        .iest-site .iest-cta-title {
+            font-size: 2.2rem;
+            font-weight: 700;
+            margin-bottom: 1.5rem;
+        }
+        
+        .iest-site .iest-cta-subtitle {
+            font-size: 1.2rem;
+            margin-bottom: 2.5rem;
+            opacity: 0.9;
+            max-width: 700px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        
+        .iest-site .iest-cta-btn {
+            background-color: #ff7e30;
+            border: none;
+            padding: 1rem 3rem;
+            font-weight: 600;
+            font-size: 1.1rem;
+            border-radius: 4px;
+            transition: all 0.3s ease;
+        }
+        
+        .iest-site .iest-cta-btn:hover {
+            background-color: #e56b1f;
+            transform: translateY(-3px);
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+        }
+        
+        /* Footer */
+        .iest-site .iest-footer {
+            background-color: #0a2d3a;
+            color: #ccc;
+            padding: 3rem 0 1.5rem;
+        }
+        
+        .iest-site .iest-footer-title {
+            font-size: 1.4rem;
+            font-weight: 600;
+            color: white;
+            margin-bottom: 1.5rem;
+        }
+        
+        .iest-site .iest-footer-contact {
+            margin-bottom: 1.5rem;
+        }
+        
+        .iest-site .iest-footer-contact p {
+            margin-bottom: 0.5rem;
+        }
+        
+        .iest-site .iest-footer-contact i {
+            color: #ff7e30;
+            margin-right: 0.8rem;
+            width: 20px;
+        }
+        
+        .iest-site .iest-copyright {
+            border-top: 1px solid rgba(255, 255, 255, 0.1);
+            padding-top: 1.5rem;
+            margin-top: 2rem;
+            text-align: center;
+            color: #999;
+            font-size: 0.9rem;
+        }
+        
+        /* Responsive Adjustments */
+        @media (max-width: 992px) {
+            .iest-site .iest-page-title {
+                font-size: 2.5rem;
+            }
+            
+            .iest-site .iest-section {
+                padding: 4rem 0;
+            }
+            
+            .iest-site .iest-faculty-card {
+                padding: 2rem;
+            }
+            
+            .iest-site .iest-integration-card {
+                padding: 2.5rem;
+            }
+        }
+        
+        @media (max-width: 768px) {
+            .iest-site .iest-page-header {
+                padding: 6rem 0 3rem;
+            }
+            
+            .iest-site .iest-page-title {
+                font-size: 2rem;
+            }
+            
+            .iest-site .iest-page-subtitle {
+                font-size: 1.1rem;
+            }
+            
+            .iest-site .iest-section {
+                padding: 3rem 0;
+            }
+            
+            .iest-site .iest-section-title {
+                font-size: 1.8rem;
+            }
+            
+            .iest-site .iest-cta-title {
+                font-size: 1.8rem;
+            }
+            
+            .iest-site .iest-faculty-header {
+                flex-direction: column;
+                text-align: center;
+            }
+            
+            .iest-site .iest-faculty-icon {
+                margin-right: 0;
+                margin-bottom: 1rem;
+            }
+            
+            .iest-site .iest-faculty-title {
+                font-size: 1.4rem;
+            }
+        }
+        
+        @media (max-width: 576px) {
+            .iest-site .iest-page-title {
+                font-size: 1.8rem;
+            }
+            
+            .iest-site .iest-faculty-card {
+                padding: 1.5rem;
+            }
+            
+            .iest-site .iest-integration-card {
+                padding: 2rem 1.5rem;
+            }
+            
+            .iest-site .iest-department-item {
+                padding: 0.8rem 0;
+            }
+        }
+
+
+          /* Programme Cards */
+        .iest-site .iest-programme-card {
+            background-color: white;
+            border-radius: 10px;
+            padding: 2.5rem 2rem;
+            height: 100%;
+            text-align: center;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+            border: 1px solid rgba(26, 95, 122, 0.1);
+            transition: all 0.3s ease;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        
+        .iest-site .iest-programme-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+            border-color: rgba(26, 95, 122, 0.2);
+        }
+        
+        .iest-site .iest-programme-icon {
+            width: 80px;
+            height: 80px;
+            border-radius: 50%;
+            background-color: rgba(26, 95, 122, 0.1);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 1.5rem;
+        }
+        
+        .iest-site .iest-programme-icon i {
+            font-size: 2rem;
+            color: #1a5f7a;
+        }
+        
+        .iest-site .iest-programme-title {
+            font-size: 1.4rem;
+            font-weight: 600;
+            color: #1a5f7a;
+            margin-bottom: 1rem;
+        }
+        
+        .iest-site .iest-programme-desc {
+            color: #666;
+            margin-bottom: 1.5rem;
+            line-height: 1.6;
+            flex-grow: 1;
+        }
+        
+        .iest-site .iest-programme-btn {
+            background-color: transparent;
+            color: #1a5f7a;
+            border: 2px solid #1a5f7a;
+            padding: 0.6rem 1.8rem;
+            border-radius: 4px;
+            font-weight: 600;
+            transition: all 0.3s ease;
+            margin-top: auto;
+        }
+        
+        .iest-site .iest-programme-btn:hover {
+            background-color: #1a5f7a;
+            color: white;
+        }
+        
+        /* Learning Pathways */
+        .iest-site .iest-pathway-card {
+            background-color: white;
+            border-radius: 10px;
+            padding: 2.5rem 2rem;
+            height: 100%;
+            text-align: center;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+            border: 1px solid rgba(26, 95, 122, 0.1);
+            transition: all 0.3s ease;
+        }
+        
+        .iest-site .iest-pathway-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+            border-color: rgba(26, 95, 122, 0.2);
+        }
+        
+        .iest-site .iest-pathway-icon {
+            width: 70px;
+            height: 70px;
+            border-radius: 50%;
+            background-color: rgba(26, 95, 122, 0.1);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 0 auto 1.5rem;
+        }
+        
+        .iest-site .iest-pathway-icon i {
+            font-size: 1.8rem;
+            color: #1a5f7a;
+        }
+        
+        .iest-site .iest-pathway-title {
+            font-size: 1.3rem;
+            font-weight: 600;
+            color: #1a5f7a;
+            margin-bottom: 1rem;
+        }
+        
+        .iest-site .iest-pathway-desc {
+            color: #555;
+            line-height: 1.7;
+        }
+        
+        /* Academic Standards */
+        .iest-site .iest-standards-card {
+            background-color: white;
+            border-radius: 10px;
+            padding: 2.5rem 2rem;
+            height: 100%;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+            border: 1px solid rgba(26, 95, 122, 0.1);
+            transition: all 0.3s ease;
+        }
+        
+        .iest-site .iest-standards-card:hover {
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+            border-color: rgba(26, 95, 122, 0.2);
+        }
+        
+        .iest-site .iest-standards-icon {
+            width: 60px;
+            height: 60px;
+            border-radius: 50%;
+            background-color: rgba(26, 95, 122, 0.1);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 1.5rem;
+        }
+        
+        .iest-site .iest-standards-icon i {
+            font-size: 1.5rem;
+            color: #1a5f7a;
+        }
+        
+        .iest-site .iest-standards-title {
+            font-size: 1.3rem;
+            font-weight: 600;
+            color: #1a5f7a;
+            margin-bottom: 1rem;
+        }
+        
+        .iest-site .iest-standards-desc {
+            color: #555;
+            line-height: 1.7;
+        }
+        
+        /* Enrolment CTA */
+        .iest-site .iest-enrolment-cta {
+            background: linear-gradient(135deg, #1a5f7a 0%, #0d3c4f 100%);
+            color: white;
+            padding: 5rem 0;
+            text-align: center;
+            border-radius: 10px;
+        }
+        
+        .iest-site .iest-enrolment-title {
+            font-size: 2.2rem;
+            font-weight: 700;
+            margin-bottom: 1.5rem;
+        }
+        
+        .iest-site .iest-enrolment-subtitle {
+            font-size: 1.2rem;
+            margin-bottom: 2.5rem;
+            opacity: 0.9;
+            max-width: 700px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        
+        .iest-site .iest-enrolment-btn {
+            background-color: #ff7e30;
+            border: none;
+            padding: 1rem 3rem;
+            font-weight: 600;
+            font-size: 1.1rem;
+            border-radius: 4px;
+            transition: all 0.3s ease;
+        }
+        
+        .iest-site .iest-enrolment-btn:hover {
+            background-color: #e56b1f;
+            transform: translateY(-3px);
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+        }
+        
+        /* Footer */
+        .iest-site .iest-footer {
+            background-color: #0a2d3a;
+            color: #ccc;
+            padding: 3rem 0 1.5rem;
+        }
+        
+        .iest-site .iest-footer-title {
+            font-size: 1.4rem;
+            font-weight: 600;
+            color: white;
+            margin-bottom: 1.5rem;
+        }
+        
+        .iest-site .iest-footer-contact {
+            margin-bottom: 1.5rem;
+        }
+        
+        .iest-site .iest-footer-contact p {
+            margin-bottom: 0.5rem;
+        }
+        
+        .iest-site .iest-footer-contact i {
+            color: #ff7e30;
+            margin-right: 0.8rem;
+            width: 20px;
+        }
+        
+        .iest-site .iest-copyright {
+            border-top: 1px solid rgba(255, 255, 255, 0.1);
+            padding-top: 1.5rem;
+            margin-top: 2rem;
+            text-align: center;
+            color: #999;
+            font-size: 0.9rem;
+        }
+        
+        /* Responsive Adjustments */
+        @media (max-width: 992px) {
+            .iest-site .iest-page-title {
+                font-size: 2.5rem;
+            }
+            
+            .iest-site .iest-section {
+                padding: 4rem 0;
+            }
+            
+            .iest-site .iest-programme-card,
+            .iest-site .iest-pathway-card,
+            .iest-site .iest-standards-card {
+                padding: 2rem 1.5rem;
+            }
+        }
+        
+        @media (max-width: 768px) {
+            .iest-site .iest-page-header {
+                padding: 6rem 0 3rem;
+            }
+            
+            .iest-site .iest-page-title {
+                font-size: 2rem;
+            }
+            
+            .iest-site .iest-page-subtitle {
+                font-size: 1.1rem;
+            }
+            
+            .iest-site .iest-section {
+                padding: 3rem 0;
+            }
+            
+            .iest-site .iest-section-title {
+                font-size: 1.8rem;
+            }
+            
+            .iest-site .iest-enrolment-title {
+                font-size: 1.8rem;
+            }
+            
+            .iest-site .iest-programme-icon {
+                width: 70px;
+                height: 70px;
+            }
+            
+            .iest-site .iest-programme-icon i {
+                font-size: 1.8rem;
+            }
+        }
+        
+        @media (max-width: 576px) {
+            .iest-site .iest-page-title {
+                font-size: 1.8rem;
+            }
+            
+            .iest-site .iest-programme-card {
+                padding: 1.8rem 1.2rem;
+            }
+            
+            .iest-site .iest-programme-title {
+                font-size: 1.3rem;
+            }
+        }
+
+
+               /* Study Mode Cards */
+        .iest-site .iest-mode-card {
+            background-color: white;
+            border-radius: 10px;
+            padding: 2.5rem 2rem;
+            height: 100%;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+            border: 1px solid rgba(26, 95, 122, 0.1);
+            transition: all 0.3s ease;
+        }
+        
+        .iest-site .iest-mode-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+            border-color: rgba(26, 95, 122, 0.2);
+        }
+        
+        .iest-site .iest-mode-icon {
+            width: 80px;
+            height: 80px;
+            border-radius: 50%;
+            background-color: rgba(26, 95, 122, 0.1);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 1.5rem;
+        }
+        
+        .iest-site .iest-mode-icon i {
+            font-size: 2rem;
+            color: #1a5f7a;
+        }
+        
+        .iest-site .iest-mode-title {
+            font-size: 1.5rem;
+            font-weight: 600;
+            color: #1a5f7a;
+            margin-bottom: 1rem;
+        }
+        
+        .iest-site .iest-mode-desc {
+            color: #666;
+            margin-bottom: 1.5rem;
+            line-height: 1.6;
+        }
+        
+        .iest-site .iest-mode-features {
+            list-style-type: none;
+            padding-left: 0;
+            margin-bottom: 1.5rem;
+        }
+        
+        .iest-site .iest-mode-features li {
+            padding: 0.5rem 0;
+            border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+            display: flex;
+            align-items: flex-start;
+        }
+        
+        .iest-site .iest-mode-features li:last-child {
+            border-bottom: none;
+        }
+        
+        .iest-site .iest-mode-features i {
+            color: #ff7e30;
+            margin-right: 0.8rem;
+            margin-top: 0.2rem;
+            flex-shrink: 0;
+        }
+        
+        .iest-site .iest-mode-features span {
+            color: #555;
+        }
+        
+        /* Benefits Section */
+        .iest-site .iest-benefit-card {
+            background-color: white;
+            border-radius: 10px;
+            padding: 2rem;
+            height: 100%;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+            border: 1px solid rgba(26, 95, 122, 0.1);
+            transition: all 0.3s ease;
+        }
+        
+        .iest-site .iest-benefit-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+            border-color: rgba(26, 95, 122, 0.2);
+        }
+        
+        .iest-site .iest-benefit-icon {
+            width: 60px;
+            height: 60px;
+            border-radius: 50%;
+            background-color: rgba(40, 167, 69, 0.1);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 1.5rem;
+        }
+        
+        .iest-site .iest-benefit-icon i {
+            font-size: 1.5rem;
+            color: #28a745;
+        }
+        
+        .iest-site .iest-benefit-title {
+            font-size: 1.3rem;
+            font-weight: 600;
+            color: #1a5f7a;
+            margin-bottom: 1rem;
+        }
+        
+        .iest-site .iest-benefit-desc {
+            color: #555;
+            line-height: 1.7;
+        }
+        
+        /* Technology & Support Section */
+        .iest-site .iest-tech-card {
+            background-color: white;
+            border-radius: 10px;
+            padding: 2.5rem 2rem;
+            height: 100%;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+            border: 1px solid rgba(26, 95, 122, 0.1);
+            transition: all 0.3s ease;
+        }
+        
+        .iest-site .iest-tech-card:hover {
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+            border-color: rgba(26, 95, 122, 0.2);
+        }
+        
+        .iest-site .iest-tech-icon {
+            width: 70px;
+            height: 70px;
+            border-radius: 50%;
+            background-color: rgba(26, 95, 122, 0.1);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 1.5rem;
+        }
+        
+        .iest-site .iest-tech-icon i {
+            font-size: 1.8rem;
+            color: #1a5f7a;
+        }
+        
+        .iest-site .iest-tech-title {
+            font-size: 1.3rem;
+            font-weight: 600;
+            color: #1a5f7a;
+            margin-bottom: 1rem;
+        }
+        
+        .iest-site .iest-tech-desc {
+            color: #555;
+            line-height: 1.7;
+        }
+        
+        /* Call-to-Action */
+        .iest-site .iest-cta {
+            background: linear-gradient(135deg, #1a5f7a 0%, #0d3c4f 100%);
+            color: white;
+            padding: 5rem 0;
+            text-align: center;
+            border-radius: 10px;
+        }
+        
+        .iest-site .iest-cta-title {
+            font-size: 2.2rem;
+            font-weight: 700;
+            margin-bottom: 1.5rem;
+        }
+        
+        .iest-site .iest-cta-subtitle {
+            font-size: 1.2rem;
+            margin-bottom: 2.5rem;
+            opacity: 0.9;
+            max-width: 700px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        
+        .iest-site .iest-cta-btn {
+            background-color: #ff7e30;
+            border: none;
+            padding: 1rem 3rem;
+            font-weight: 600;
+            font-size: 1.1rem;
+            border-radius: 4px;
+            transition: all 0.3s ease;
+        }
+        
+        .iest-site .iest-cta-btn:hover {
+            background-color: #e56b1f;
+            transform: translateY(-3px);
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+        }
+        
+        /* Footer */
+        .iest-site .iest-footer {
+            background-color: #0a2d3a;
+            color: #ccc;
+            padding: 3rem 0 1.5rem;
+        }
+        
+        .iest-site .iest-footer-title {
+            font-size: 1.4rem;
+            font-weight: 600;
+            color: white;
+            margin-bottom: 1.5rem;
+        }
+        
+        .iest-site .iest-footer-contact {
+            margin-bottom: 1.5rem;
+        }
+        
+        .iest-site .iest-footer-contact p {
+            margin-bottom: 0.5rem;
+        }
+        
+        .iest-site .iest-footer-contact i {
+            color: #ff7e30;
+            margin-right: 0.8rem;
+            width: 20px;
+        }
+        
+        .iest-site .iest-copyright {
+            border-top: 1px solid rgba(255, 255, 255, 0.1);
+            padding-top: 1.5rem;
+            margin-top: 2rem;
+            text-align: center;
+            color: #999;
+            font-size: 0.9rem;
+        }
+        
+        /* Responsive Adjustments */
+        @media (max-width: 992px) {
+            .iest-site .iest-page-title {
+                font-size: 2.5rem;
+            }
+            
+            .iest-site .iest-section {
+                padding: 4rem 0;
+            }
+            
+            .iest-site .iest-mode-card,
+            .iest-site .iest-benefit-card,
+            .iest-site .iest-tech-card {
+                padding: 2rem 1.5rem;
+            }
+        }
+        
+        @media (max-width: 768px) {
+            .iest-site .iest-page-header {
+                padding: 6rem 0 3rem;
+            }
+            
+            .iest-site .iest-page-title {
+                font-size: 2rem;
+            }
+            
+            .iest-site .iest-page-subtitle {
+                font-size: 1.1rem;
+            }
+            
+            .iest-site .iest-section {
+                padding: 3rem 0;
+            }
+            
+            .iest-site .iest-section-title {
+                font-size: 1.8rem;
+            }
+            
+            .iest-site .iest-cta-title {
+                font-size: 1.8rem;
+            }
+            
+            .iest-site .iest-mode-icon {
+                width: 70px;
+                height: 70px;
+            }
+            
+            .iest-site .iest-mode-icon i {
+                font-size: 1.8rem;
+            }
+        }
+        
+        @media (max-width: 576px) {
+            .iest-site .iest-page-title {
+                font-size: 1.8rem;
+            }
+            
+            .iest-site .iest-mode-card {
+                padding: 1.8rem 1.2rem;
+            }
+            
+            .iest-site .iest-mode-title {
+                font-size: 1.3rem;
+            }
+        }
+
+
+          /* Contact Information Cards */
+        .iest-site .iest-contact-card {
+            background-color: white;
+            border-radius: 10px;
+            padding: 2.5rem 2rem;
+            height: 100%;
+            text-align: center;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+            border: 1px solid rgba(26, 95, 122, 0.1);
+            transition: all 0.3s ease;
+        }
+        
+        .iest-site .iest-contact-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+            border-color: rgba(26, 95, 122, 0.2);
+        }
+        
+        .iest-site .iest-contact-icon {
+            width: 70px;
+            height: 70px;
+            border-radius: 50%;
+            background-color: rgba(26, 95, 122, 0.1);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 0 auto 1.5rem;
+        }
+        
+        .iest-site .iest-contact-icon i {
+            font-size: 1.8rem;
+            color: #1a5f7a;
+        }
+        
+        .iest-site .iest-contact-title {
+            font-size: 1.4rem;
+            font-weight: 600;
+            color: #1a5f7a;
+            margin-bottom: 1rem;
+        }
+        
+        .iest-site .iest-contact-detail {
+            color: #555;
+            font-size: 1.1rem;
+            line-height: 1.6;
+            margin-bottom: 0.5rem;
+        }
+        
+        .iest-site .iest-contact-note {
+            color: #777;
+            font-size: 0.9rem;
+            margin-top: 0.5rem;
+        }
+        
+        /* Contact Form */
+        .iest-site .iest-form-container {
+            background-color: white;
+            border-radius: 10px;
+            padding: 3rem;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+            border: 1px solid rgba(26, 95, 122, 0.1);
+        }
+        
+        .iest-site .iest-form-title {
+            font-size: 1.8rem;
+            font-weight: 600;
+            color: #1a5f7a;
+            margin-bottom: 1.5rem;
+        }
+        
+        .iest-site .iest-form-label {
+            font-weight: 600;
+            color: #444;
+            margin-bottom: 0.5rem;
+        }
+        
+        .iest-site .iest-form-label .iest-required {
+            color: #dc3545;
+        }
+        
+        .iest-site .iest-form-control {
+            border: 1px solid rgba(26, 95, 122, 0.2);
+            border-radius: 4px;
+            padding: 0.75rem 1rem;
+            transition: all 0.3s ease;
+        }
+        
+        .iest-site .iest-form-control:focus {
+            border-color: #1a5f7a;
+            box-shadow: 0 0 0 0.25rem rgba(26, 95, 122, 0.25);
+        }
+        
+        .iest-site .iest-form-textarea {
+            min-height: 150px;
+            resize: vertical;
+        }
+        
+        .iest-site .iest-form-btn {
+            background-color: #1a5f7a;
+            border: none;
+            color: white;
+            padding: 0.9rem 2.5rem;
+            font-weight: 600;
+            font-size: 1.1rem;
+            border-radius: 4px;
+            transition: all 0.3s ease;
+            width: 100%;
+        }
+        
+        .iest-site .iest-form-btn:hover {
+            background-color: #0d3c4f;
+            transform: translateY(-2px);
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+        }
+        
+        .iest-site .iest-form-btn:active {
+            transform: translateY(0);
+        }
+        
+        /* Map Section */
+        .iest-site .iest-map-container {
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+            border: 1px solid rgba(26, 95, 122, 0.1);
+        }
+        
+        .iest-site .iest-map-placeholder {
+            background-color: #f8f9fa;
+            height: 400px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #666;
+            flex-direction: column;
+        }
+        
+        .iest-site .iest-map-placeholder i {
+            font-size: 3rem;
+            color: #1a5f7a;
+            margin-bottom: 1rem;
+            opacity: 0.5;
+        }
+        
+        /* Admissions CTA */
+        .iest-site .iest-admissions-cta {
+            background: linear-gradient(135deg, #1a5f7a 0%, #0d3c4f 100%);
+            color: white;
+            padding: 4rem 0;
+            text-align: center;
+            border-radius: 10px;
+        }
+        
+        .iest-site .iest-admissions-title {
+            font-size: 2.2rem;
+            font-weight: 700;
+            margin-bottom: 1.5rem;
+        }
+        
+        .iest-site .iest-admissions-subtitle {
+            font-size: 1.2rem;
+            margin-bottom: 2.5rem;
+            opacity: 0.9;
+            max-width: 700px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        
+        .iest-site .iest-admissions-btn {
+            background-color: #ff7e30;
+            border: none;
+            padding: 1rem 3rem;
+            font-weight: 600;
+            font-size: 1.1rem;
+            border-radius: 4px;
+            transition: all 0.3s ease;
+        }
+        
+        .iest-site .iest-admissions-btn:hover {
+            background-color: #e56b1f;
+            transform: translateY(-3px);
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+        }
+        
+        /* Footer */
+        .iest-site .iest-footer {
+            background-color: #0a2d3a;
+            color: #ccc;
+            padding: 3rem 0 1.5rem;
+        }
+        
+        .iest-site .iest-footer-title {
+            font-size: 1.4rem;
+            font-weight: 600;
+            color: white;
+            margin-bottom: 1.5rem;
+        }
+        
+        .iest-site .iest-footer-contact {
+            margin-bottom: 1.5rem;
+        }
+        
+        .iest-site .iest-footer-contact p {
+            margin-bottom: 0.5rem;
+        }
+        
+        .iest-site .iest-footer-contact i {
+            color: #ff7e30;
+            margin-right: 0.8rem;
+            width: 20px;
+        }
+        
+        .iest-site .iest-copyright {
+            border-top: 1px solid rgba(255, 255, 255, 0.1);
+            padding-top: 1.5rem;
+            margin-top: 2rem;
+            text-align: center;
+            color: #999;
+            font-size: 0.9rem;
+        }
+        
+        /* Responsive Adjustments */
+        @media (max-width: 992px) {
+            .iest-site .iest-page-title {
+                font-size: 2.5rem;
+            }
+            
+            .iest-site .iest-section {
+                padding: 4rem 0;
+            }
+            
+            .iest-site .iest-form-container {
+                padding: 2.5rem;
+            }
+            
+            .iest-site .iest-contact-card {
+                padding: 2rem 1.5rem;
+            }
+        }
+        
+        @media (max-width: 768px) {
+            .iest-site .iest-page-header {
+                padding: 6rem 0 3rem;
+            }
+            
+            .iest-site .iest-page-title {
+                font-size: 2rem;
+            }
+            
+            .iest-site .iest-page-subtitle {
+                font-size: 1.1rem;
+            }
+            
+            .iest-site .iest-section {
+                padding: 3rem 0;
+            }
+            
+            .iest-site .iest-section-title {
+                font-size: 1.8rem;
+            }
+            
+            .iest-site .iest-admissions-title {
+                font-size: 1.8rem;
+            }
+            
+            .iest-site .iest-form-container {
+                padding: 2rem;
+            }
+            
+            .iest-site .iest-contact-icon {
+                width: 60px;
+                height: 60px;
+            }
+            
+            .iest-site .iest-contact-icon i {
+                font-size: 1.5rem;
+            }
+        }
+        
+        @media (max-width: 576px) {
+            .iest-site .iest-page-title {
+                font-size: 1.8rem;
+            }
+            
+            .iest-site .iest-contact-card {
+                padding: 1.8rem 1.2rem;
+            }
+            
+            .iest-site .iest-form-container {
+                padding: 1.5rem;
+            }
+        }
+
+
+        /* WhatsApp/Live Chat Button */
+        .whatsapp-btn {
+            position: fixed;
+            bottom: 2rem;
+            right: 2rem;
+            width: 60px;
+            height: 60px;
+            background: #25D366;
+            color: white;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-decoration: none;
+            box-shadow: 0 4px 15px rgba(37, 211, 102, 0.3);
+            z-index: 1000;
+            transition: all 0.3s ease;
+        }
+        
+        .whatsapp-btn:hover {
+            transform: scale(1.1);
+            box-shadow: 0 6px 20px rgba(37, 211, 102, 0.4);
+            color: white;
+        }
+        
+        .whatsapp-btn i {
+            font-size: 1.75rem;
+        }
+        
+        .whatsapp-tooltip {
+            position: absolute;
+            right: 70px;
+            top: 50%;
+            transform: translateY(-50%);
+            background: rgba(0,0,0,0.8);
+            color: white;
+            padding: 0.5rem 1rem;
+            border-radius: 6px;
+            font-size: 0.875rem;
+            white-space: nowrap;
+            opacity: 0;
+            transition: opacity 0.3s ease;
+            pointer-events: none;
+        }
+        
+        .whatsapp-btn:hover .whatsapp-tooltip {
+            opacity: 1;
+        }
