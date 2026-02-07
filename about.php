@@ -343,7 +343,7 @@
             <div class="container">
                 <h2 class="iest-cta-title">Join a Future-Focused Institution</h2>
                 <p class="iest-cta-subtitle">Become part of a vibrant academic community dedicated to excellence, innovation, and positive impact. Explore our comprehensive range of programmes designed to prepare you for success in Earth Sciences, Technology, and multidisciplinary fields.</p>
-                <a href="programmes.php" class="btn iest-cta-btn">Explore Our Programmes</a>
+                <a href="programmes" class="btn iest-cta-btn">Explore Our Programmes</a>
             </div>
         </section>
 

@@ -414,7 +414,7 @@
             <div class="container">
                 <h2 class="iest-cta-title">Start Your Academic Journey with IEST</h2>
                 <p class="iest-cta-subtitle">Join thousands of successful graduates who have transformed their careers through our innovative programmes and expert guidance.</p>
-                <a href="contact.php" class="btn iest-cta-btn">Contact Us Today</a>
+                <a href="contact" class="btn iest-cta-btn">Contact Us Today</a>
             </div>
         </section>
 

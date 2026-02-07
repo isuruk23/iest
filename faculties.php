@@ -1570,7 +1570,7 @@
                         <div class="iest-pathways-cta">
                             <h2 class="iest-pathways-title">Explore Academic Pathways Across Our Faculties</h2>
                             <p class="iest-pathways-subtitle">Discover programmes that align with your career aspirations and academic interests. Our flexible learning options allow you to pursue education that fits your lifestyle and goals.</p>
-                            <a href="programmes.php" class="btn iest-pathways-btn">View Programmes</a>
+                            <a href="programmes" class="btn iest-pathways-btn">View Programmes</a>
                         </div>
                     </div>
                 </div>
