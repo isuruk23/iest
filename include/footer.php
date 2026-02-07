@@ -55,6 +55,7 @@
                         <img src="images/logo.png" alt="Care1st Logo"  class="img-fluid mb-3">
                     </div>
                     <div class="col-6">
+                        <div id="formMessage"></div>
                         <form id="quickBookForm">
                         <div class="mb-3">
                             <label for="fullName" class="form-label">Full Name *</label>

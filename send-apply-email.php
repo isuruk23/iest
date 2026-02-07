@@ -60,13 +60,13 @@ try {
     $mail->Host       = 'smtp.titan.email';
     $mail->SMTPAuth   = true;
      $mail->Username   = 'info@iest.lk';  //host username (email)
-     $mail->Password   = 'Inf#$642890U'; // host Password
+     $mail->Password   = 'Iea@34d56U'; // host Password
     $mail->SMTPSecure = PHPMailer::ENCRYPTION_SMTPS;
     $mail->Port       = 465;
 
     // Sender / Receiver
     $mail->setFrom('info@iest.lk', 'Website Inquiry'); // sender
-     $mail->addAddress('info@iest.lk', 'IEST  Sales Team');   // receiver
+     $mail->addAddress('info@iest.lk', 'IEST Team');   // receiver
     // $mail->addBCC('nethsaradilshan97@gmail.com');
 
 

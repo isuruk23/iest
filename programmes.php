@@ -99,7 +99,7 @@
                             </div>
                             <h3 class="iest-programme-title">Certificate Courses</h3>
                             <p class="iest-programme-desc">Short-term specialized programmes focusing on specific skills and knowledge areas, ideal for professional development and career enhancement.</p>
-                            <button id="Applynow" data-type='Certificate Courses' class="btn iest-programme-btn Applynow">View Details</button>
+                            <button id="Applynow" data-type='Certificate Courses' class="btn iest-programme-btn Applynow">Enquire Now</button>
                         </div>
                     </div>
                     
@@ -111,7 +111,7 @@
                             </div>
                             <h3 class="iest-programme-title">Diploma Programmes</h3>
                             <p class="iest-programme-desc">Comprehensive 1-2 year programmes providing foundational knowledge and practical skills in specialized disciplines.</p>
-                            <button id="Applynow" data-type='Diploma Programmes' class="btn iest-programme-btn Applynow">View Details</button>
+                            <button id="Applynow" data-type='Diploma Programmes' class="btn iest-programme-btn Applynow">Enquire Now</button>
                         </div>
                     </div>
                     
@@ -123,7 +123,7 @@
                             </div>
                             <h3 class="iest-programme-title">Undergraduate Degrees</h3>
                             <p class="iest-programme-desc">Bachelor's degrees offering comprehensive education in Earth Sciences, Technology, and related fields with industry placements.</p>
-                            <button id="Applynow" data-type='Undergraduate Degrees' class="btn iest-programme-btn Applynow">View Details</button>
+                            <button id="Applynow" data-type='Undergraduate Degrees' class="btn iest-programme-btn Applynow">Enquire Now</button>
                         </div>
                     </div>
                     
@@ -135,7 +135,7 @@
                             </div>
                             <h3 class="iest-programme-title">Postgraduate Programmes</h3>
                             <p class="iest-programme-desc">Master's and doctoral programmes for advanced specialization, research, and leadership development in specialized fields.</p>
-                            <button id="Applynow" data-type='Postgraduate Programmes' class="btn iest-programme-btn Applynow">View Details</button>
+                            <button id="Applynow" data-type='Postgraduate Programmes' class="btn iest-programme-btn Applynow">Enquire Now</button>
                         </div>
                     </div>
                     
@@ -147,7 +147,7 @@
                             </div>
                             <h3 class="iest-programme-title">Professional Development</h3>
                             <p class="iest-programme-desc">Industry-focused courses and workshops designed for working professionals seeking to upgrade skills and knowledge.</p>
-                            <button  id="Applynow" data-type='Professional Development' class="btn iest-programme-btn Applynow">View Details</button>
+                            <button  id="Applynow" data-type='Professional Development' class="btn iest-programme-btn Applynow">Enquire Now</button>
                         </div>
                     </div>
                     
@@ -312,7 +312,7 @@
                 $('#quickContactModal').modal('show');
                 
                 $('#type').val($(this).data('type'));
-                $('#BookingModalLabel').text('Apply Now - Quick Apply Form - ' + $(this).data('type'));
+                $('#BookingModalLabel').text('Apply Now - Quick Enquire  Form - ' + $(this).data('type'));
             });
 
             $('#submitBook').on('click', function () {
@@ -387,7 +387,7 @@
             //             // For "Enquire Now" buttons
             //             window.location.href = "contact.html?enquiry=" + encodeURIComponent(programmeTitle);
             //         } else {
-            //             // For "View Details" buttons
+            //             // For "Enquire Now" buttons
             //             alert(`You selected: ${programmeTitle}. This would navigate to the detailed programme information page.`);
             //             // In production, this would redirect to: window.location.href = `programme-details.html?programme=${encodeURIComponent(programmeTitle)}`;
             //         }

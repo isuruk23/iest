@@ -60,7 +60,7 @@ try {
     $mail->Host       = 'smtp.titan.email';
     $mail->SMTPAuth   = true;
      $mail->Username   = 'info@iest.lk';  //host username (email)
-     $mail->Password   = 'Inf#$642890U'; // host Password
+     $mail->Password   = 'Iea@34d56U'; // host Password
     $mail->SMTPSecure = PHPMailer::ENCRYPTION_SMTPS;
     $mail->Port       = 465;
 

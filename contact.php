@@ -140,6 +140,7 @@
             <div class="container">
                 <div class="row justify-content-center">
                     <div class="col-lg-10">
+                        <div id="formMessage"></div>
                         <div class="iest-form-container">
                             <h2 class="iest-form-title text-center mb-4">Send Us a Message</h2>
                             
