@@ -12,7 +12,7 @@
                                 <a class="nav-link iest-nav-link" href="programmes">Programmes</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link iest-nav-link" href="#">International Collaboration</a>
+                                <a class="nav-link iest-nav-link" href="international">International Collaboration</a>
                             </li>
                            
                             <!-- <li class="nav-item">

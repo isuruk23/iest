@@ -2529,3 +2529,334 @@
         .whatsapp-btn:hover .whatsapp-tooltip {
             opacity: 1;
         }
+
+
+         /* Collaboration Features */
+        .iest-site .iest-feature-card {
+            background-color: white;
+            border-radius: 10px;
+            padding: 2.5rem 2rem;
+            height: 100%;
+            text-align: center;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+            border: 1px solid rgba(26, 95, 122, 0.1);
+            transition: all 0.3s ease;
+        }
+        
+        .iest-site .iest-feature-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+            border-color: rgba(26, 95, 122, 0.2);
+        }
+        
+        .iest-site .iest-feature-icon {
+            width: 80px;
+            height: 80px;
+            border-radius: 50%;
+            background-color: rgba(26, 95, 122, 0.1);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 0 auto 1.5rem;
+        }
+        
+        .iest-site .iest-feature-icon i {
+            font-size: 2rem;
+            color: #1a5f7a;
+        }
+        
+        .iest-site .iest-feature-title {
+            font-size: 1.3rem;
+            font-weight: 600;
+            color: #1a5f7a;
+            margin-bottom: 1rem;
+        }
+        
+        .iest-site .iest-feature-text {
+            color: #666;
+            line-height: 1.6;
+        }
+        
+        /* Academic Excellence Section */
+        .iest-site .iest-excellence-img {
+            border-radius: 10px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+            width: 100%;
+            height: 400px;
+            object-fit: cover;
+        }
+        
+        .iest-site .iest-highlight-list {
+            list-style-type: none;
+            padding-left: 0;
+        }
+        
+        .iest-site .iest-highlight-list li {
+            padding: 0.8rem 0;
+            border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+            display: flex;
+            align-items: flex-start;
+        }
+        
+        .iest-site .iest-highlight-list li:last-child {
+            border-bottom: none;
+        }
+        
+        .iest-site .iest-highlight-list i {
+            color: #ff7e30;
+            margin-right: 1rem;
+            margin-top: 0.2rem;
+            flex-shrink: 0;
+        }
+        
+        /* Collaboration Outcomes */
+        .iest-site .iest-outcome-card {
+            background-color: white;
+            border-radius: 10px;
+            padding: 2rem;
+            height: 100%;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+            border: 1px solid rgba(26, 95, 122, 0.1);
+            transition: all 0.3s ease;
+        }
+        
+        .iest-site .iest-outcome-card:hover {
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+            border-color: rgba(26, 95, 122, 0.2);
+        }
+        
+        .iest-site .iest-outcome-icon {
+            width: 60px;
+            height: 60px;
+            border-radius: 50%;
+            background-color: rgba(26, 95, 122, 0.1);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 1.5rem;
+        }
+        
+        .iest-site .iest-outcome-icon i {
+            font-size: 1.5rem;
+            color: #1a5f7a;
+        }
+        
+        .iest-site .iest-outcome-title {
+            font-size: 1.2rem;
+            font-weight: 600;
+            color: #1a5f7a;
+            margin-bottom: 1rem;
+        }
+        
+        .iest-site .iest-outcome-text {
+            color: #555;
+            line-height: 1.6;
+        }
+        
+        /* Call to Action */
+        .iest-site .iest-cta {
+            background: linear-gradient(135deg, #1a5f7a 0%, #0d3c4f 100%);
+            color: white;
+            padding: 5rem 0;
+            text-align: center;
+        }
+        
+        .iest-site .iest-cta-title {
+            font-size: 2.5rem;
+            font-weight: 700;
+            margin-bottom: 1.5rem;
+        }
+        
+        .iest-site .iest-cta-subtitle {
+            font-size: 1.3rem;
+            margin-bottom: 2.5rem;
+            opacity: 0.9;
+            max-width: 700px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        
+        .iest-site .iest-cta-btn {
+            background-color: #ff7e30;
+            border: none;
+            padding: 1rem 3rem;
+            font-weight: 600;
+            font-size: 1.1rem;
+            border-radius: 4px;
+            transition: all 0.3s ease;
+        }
+        
+        .iest-site .iest-cta-btn:hover {
+            background-color: #e56b1f;
+            transform: translateY(-3px);
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+        }
+        
+        /* Footer */
+        .iest-site .iest-footer {
+            background-color: #0a2d3a;
+            color: #ccc;
+            padding: 3rem 0 1.5rem;
+        }
+        
+        .iest-site .iest-footer-title {
+            font-size: 1.4rem;
+            font-weight: 600;
+            color: white;
+            margin-bottom: 1.5rem;
+        }
+        
+        .iest-site .iest-footer-contact {
+            margin-bottom: 1.5rem;
+        }
+        
+        .iest-site .iest-footer-contact p {
+            margin-bottom: 0.5rem;
+        }
+        
+        .iest-site .iest-footer-contact i {
+            color: #ff7e30;
+            margin-right: 0.8rem;
+        }
+        
+        .iest-site .iest-copyright {
+            border-top: 1px solid rgba(255, 255, 255, 0.1);
+            padding-top: 1.5rem;
+            margin-top: 2rem;
+            text-align: center;
+            color: #999;
+            font-size: 0.9rem;
+        }
+        
+        /* Carousel Custom Styles */
+        .iest-site .carousel {
+            height: 100%;
+        }
+        
+        .iest-site .carousel-inner {
+            height: 100%;
+        }
+        
+        .iest-site .carousel-item {
+            height: 100%;
+        }
+        
+        .iest-site .carousel-control-prev,
+        .iest-site .carousel-control-next {
+            width: 50px;
+            height: 50px;
+            background-color: rgba(255, 255, 255, 0.2);
+            border-radius: 50%;
+            top: 50%;
+            transform: translateY(-50%);
+            opacity: 0.8;
+        }
+        
+        .iest-site .carousel-control-prev:hover,
+        .iest-site .carousel-control-next:hover {
+            background-color: rgba(255, 255, 255, 0.3);
+            opacity: 1;
+        }
+        
+        .iest-site .carousel-control-prev {
+            left: 20px;
+        }
+        
+        .iest-site .carousel-control-next {
+            right: 20px;
+        }
+        
+        .iest-site .carousel-indicators {
+            bottom: 30px;
+        }
+        
+        .iest-site .carousel-indicators button {
+            width: 12px;
+            height: 12px;
+            border-radius: 50%;
+            margin: 0 5px;
+            border: none;
+            background-color: rgba(255, 255, 255, 0.5);
+        }
+        
+        .iest-site .carousel-indicators button.active {
+            background-color: #ff7e30;
+        }
+        
+        /* Responsive Adjustments */
+        @media (max-width: 992px) {
+            .iest-site .iest-hero {
+                height: 60vh;
+                min-height: 400px;
+            }
+            
+            .iest-site .iest-hero-title {
+                font-size: 2.5rem;
+            }
+            
+            .iest-site .iest-hero-subtitle {
+                font-size: 1.2rem;
+            }
+            
+            .iest-site .iest-section {
+                padding: 4rem 0;
+            }
+            
+            .iest-site .iest-section-title {
+                font-size: 2.2rem;
+            }
+        }
+        
+        @media (max-width: 768px) {
+            .iest-site .iest-hero {
+                height: 50vh;
+                min-height: 300px;
+            }
+            
+            .iest-site .iest-hero-title {
+                font-size: 2rem;
+            }
+            
+            .iest-site .iest-hero-subtitle {
+                font-size: 1.1rem;
+            }
+            
+            .iest-site .iest-section {
+                padding: 3rem 0;
+            }
+            
+            .iest-site .iest-section-title {
+                font-size: 1.8rem;
+            }
+            
+            .iest-site .iest-cta-title {
+                font-size: 2rem;
+            }
+            
+            .iest-site .iest-feature-card {
+                padding: 2rem 1.5rem;
+            }
+        }
+        
+        @media (max-width: 576px) {
+            .iest-site .iest-hero-title {
+                font-size: 1.8rem;
+            }
+            
+            .iest-site .iest-hero-overlay {
+                padding: 1rem;
+            }
+            
+            .iest-site .iest-cta-title {
+                font-size: 1.8rem;
+            }
+            
+            .iest-site .iest-feature-icon {
+                width: 70px;
+                height: 70px;
+            }
+            
+            .iest-site .iest-feature-icon i {
+                font-size: 1.8rem;
+            }
+        }
