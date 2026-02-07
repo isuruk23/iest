@@ -28,7 +28,7 @@
         <header>
             <nav class="navbar navbar-expand-lg iest-navbar fixed-top">
                 <div class="container">
-                    <a class="navbar-brand iest-navbar-brand" href="#">
+                    <a class="navbar-brand iest-navbar-brand" href="/">
                         <img src="images/logo-sm.png" width="70px"  class="img-fluid" alt="Institute of Earth Sciences and Technology Logo">
                         <span>Institute of Earth Sciences and Technology</span>
                     </a>
