@@ -25,12 +25,12 @@
             <nav class="navbar navbar-expand-lg iest-navbar fixed-top">
                 <div class="container">
                     <a class="navbar-brand iest-navbar-brand" href="index.html">
-                        <img src="images/logo-sm.jpg" width="70px"  class="img-fluid" alt="Institute of Earth Sciences and Technology Logo">
-                        <!-- <span>Institute of Earth Sciences and Technology</span> -->
+                        <img src="images/logo-sm.png" width="70px"  class="img-fluid" alt="Institute of Earth Sciences and Technology Logo">
+                        <span>Institute of Earth Sciences and Technology</span>
                     </a>
                     
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#iestNavbar">
-                        <span class="navbar-toggler-icon"></span>
+                        <i class="fa fa-bars" aria-hidden="true"></i>
                     </button>
                     
                     <div class="collapse navbar-collapse" id="iestNavbar">
@@ -42,7 +42,7 @@
 
         <!-- 1️⃣ Page Header / Banner -->
         <section class="iest-page-header" style="background: linear-gradient(rgba(26, 95, 122, 0.3), rgba(26, 95, 122, 0.2)), 
-                        url('images/faculties-banner.jpg');">
+                        url('images/faculties-banner.jpg')  no-repeat center center; background-size: cover;">
             <div class="container">
                 <nav aria-label="breadcrumb">
                     <ol class="breadcrumb iest-breadcrumb">
@@ -192,327 +192,1159 @@
     
 
         <!-- 3️⃣ Faculties & Departments Listing -->
+         <!-- 🎓 2️⃣ Faculties Accordion (CORE SECTION) -->
         <section class="iest-section iest-section-light">
             <div class="container">
                 <div class="text-center mb-5">
-                    <h2 class="iest-section-title">Faculties & Departments</h2>
-                    <p class="iest-section-subtitle">Explore our academic departments organized within comprehensive faculties</p>
+                    <h2 class="iest-section-title">Departments</h2>
+                    <p class="iest-section-subtitle">Explore our comprehensive academic structure with detailed programmes in each department</p>
                 </div>
                 
-                <div class="row g-4">
-                    <!-- Faculty of Science -->
-                    <div class="col-lg-6">
-                        <div class="iest-faculty-card">
-                            <div class="iest-faculty-header">
-                                <div class="iest-faculty-icon">
-                                    <i class="fas fa-flask"></i>
+                <!-- Bootstrap Accordion -->
+                <div class="accordion iest-faculty-accordion" id="iest-faculty-accordion">
+                    
+                    <!-- 🌱 Faculty of Agriculture -->
+                    <div class="accordion-item iest-accordion-item">
+                        <h2 class="accordion-header iest-accordion-header" id="iest-faculty-agriculture-heading">
+                            <button class="accordion-button iest-accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#iest-faculty-agriculture" aria-expanded="false" aria-controls="iest-faculty-agriculture">
+                                <div class="iest-faculty-title">
+                                    <div class="iest-faculty-icon">
+                                        <i class="fas fa-tractor"></i>
+                                    </div>
+                                    <span>Faculty of Agriculture</span>
                                 </div>
-                                <div>
-                                    <h3 class="iest-faculty-title">Faculty of Science</h3>
+                            </button>
+                        </h2>
+                        <div id="iest-faculty-agriculture" class="accordion-collapse collapse" aria-labelledby="iest-faculty-agriculture-heading" data-bs-parent="#iest-faculty-accordion">
+                            <div class="accordion-body iest-accordion-body">
+                                
+                                <!-- Department of Agribusiness Management -->
+                                <div class="card iest-department-card">
+                                    <div class="card-header iest-department-header">
+                                        <h3 class="iest-department-title">Department of Agribusiness Management</h3>
+                                    </div>
+                                    <div class="card-body p-0">
+                                        <ul class="list-unstyled iest-courses-list">
+                                            <li class="iest-course-item">
+                                                <div class="iest-course-icon">
+                                                    <i class="fas fa-graduation-cap"></i>
+                                                </div>
+                                                <div class="iest-course-name">Diploma in Agribusiness Management</div>
+                                            </li>
+                                            <li class="iest-course-item">
+                                                <div class="iest-course-icon">
+                                                    <i class="fas fa-university"></i>
+                                                </div>
+                                                <div class="iest-course-name">BSc in Agribusiness Management</div>
+                                            </li>
+                                            <li class="iest-course-item">
+                                                <div class="iest-course-icon">
+                                                    <i class="fas fa-chart-line"></i>
+                                                </div>
+                                                <div class="iest-course-name">BSc in Agricultural Economics</div>
+                                            </li>
+                                            <li class="iest-course-item">
+                                                <div class="iest-course-icon">
+                                                    <i class="fas fa-lightbulb"></i>
+                                                </div>
+                                                <div class="iest-course-name">Diploma in Agricultural Entrepreneurship</div>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                
+                                <!-- Department of Animal Science -->
+                                <div class="card iest-department-card">
+                                    <div class="card-header iest-department-header">
+                                        <h3 class="iest-department-title">Department of Animal Science</h3>
+                                    </div>
+                                    <div class="card-body p-0">
+                                        <ul class="list-unstyled iest-courses-list">
+                                            <li class="iest-course-item">
+                                                <div class="iest-course-icon">
+                                                    <i class="fas fa-graduation-cap"></i>
+                                                </div>
+                                                <div class="iest-course-name">Diploma in Animal Science</div>
+                                            </li>
+                                            <li class="iest-course-item">
+                                                <div class="iest-course-icon">
+                                                    <i class="fas fa-university"></i>
+                                                </div>
+                                                <div class="iest-course-name">BSc in Animal Science</div>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                
+                                <!-- Department of Food Science -->
+                                <div class="card iest-department-card">
+                                    <div class="card-header iest-department-header">
+                                        <h3 class="iest-department-title">Department of Food Science</h3>
+                                    </div>
+                                    <div class="card-body p-0">
+                                        <ul class="list-unstyled iest-courses-list">
+                                            <li class="iest-course-item">
+                                                <div class="iest-course-icon">
+                                                    <i class="fas fa-graduation-cap"></i>
+                                                </div>
+                                                <div class="iest-course-name">Diploma in Food Technology</div>
+                                            </li>
+                                            <li class="iest-course-item">
+                                                <div class="iest-course-icon">
+                                                    <i class="fas fa-university"></i>
+                                                </div>
+                                                <div class="iest-course-name">BSc in Food Science & Nutrition</div>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                
+                                <!-- Department of Sustainable Agriculture -->
+                                <div class="card iest-department-card">
+                                    <div class="card-header iest-department-header">
+                                        <h3 class="iest-department-title">Department of Sustainable Agriculture</h3>
+                                    </div>
+                                    <div class="card-body p-0">
+                                        <ul class="list-unstyled iest-courses-list">
+                                            <li class="iest-course-item">
+                                                <div class="iest-course-icon">
+                                                    <i class="fas fa-university"></i>
+                                                </div>
+                                                <div class="iest-course-name">BSc in Agriculture</div>
+                                            </li>
+                                            <li class="iest-course-item">
+                                                <div class="iest-course-icon">
+                                                    <i class="fas fa-graduation-cap"></i>
+                                                </div>
+                                                <div class="iest-course-name">Diploma in Sustainable Agriculture</div>
+                                            </li>
+                                            <li class="iest-course-item">
+                                                <div class="iest-course-icon">
+                                                    <i class="fas fa-leaf"></i>
+                                                </div>
+                                                <div class="iest-course-name">Diploma in Organic Farming</div>
+                                            </li>
+                                        </ul>
+                                    </div>
                                 </div>
                             </div>
-                            
-                            <ul class="iest-departments-list">
-                                <li class="iest-department-item">
-                                    <div class="iest-department-icon">
-                                        <i class="fas fa-leaf"></i>
-                                    </div>
-                                    <div class="iest-department-name">Department of Environmental & Earth Sciences</div>
-                                </li>
-                                <li class="iest-department-item">
-                                    <div class="iest-department-icon">
-                                        <i class="fas fa-atom"></i>
-                                    </div>
-                                    <div class="iest-department-name">Department of Applied Sciences</div>
-                                </li>
-                            </ul>
                         </div>
                     </div>
                     
-                    <!-- Faculty of Health Sciences -->
-                    <div class="col-lg-6">
-                        <div class="iest-faculty-card">
-                            <div class="iest-faculty-header">
-                                <div class="iest-faculty-icon">
-                                    <i class="fas fa-heartbeat"></i>
+                    <!-- 🎓 Faculty of Education -->
+                    <div class="accordion-item iest-accordion-item">
+                        <h2 class="accordion-header iest-accordion-header" id="iest-faculty-education-heading">
+                            <button class="accordion-button iest-accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#iest-faculty-education" aria-expanded="false" aria-controls="iest-faculty-education">
+                                <div class="iest-faculty-title">
+                                    <div class="iest-faculty-icon">
+                                        <i class="fas fa-graduation-cap"></i>
+                                    </div>
+                                    <span>Faculty of Education</span>
                                 </div>
-                                <div>
-                                    <h3 class="iest-faculty-title">Faculty of Health Sciences</h3>
+                            </button>
+                        </h2>
+                        <div id="iest-faculty-education" class="accordion-collapse collapse" aria-labelledby="iest-faculty-education-heading" data-bs-parent="#iest-faculty-accordion">
+                            <div class="accordion-body iest-accordion-body">
+                                
+                                <!-- Department of Early Childhood Education -->
+                                <div class="card iest-department-card">
+                                    <div class="card-header iest-department-header">
+                                        <h3 class="iest-department-title">Department of Early Childhood Education</h3>
+                                    </div>
+                                    <div class="card-body p-0">
+                                        <ul class="list-unstyled iest-courses-list">
+                                            <li class="iest-course-item">
+                                                <div class="iest-course-icon">
+                                                    <i class="fas fa-graduation-cap"></i>
+                                                </div>
+                                                <div class="iest-course-name">Diploma in Early Childhood Education</div>
+                                            </li>
+                                            <li class="iest-course-item">
+                                                <div class="iest-course-icon">
+                                                    <i class="fas fa-university"></i>
+                                                </div>
+                                                <div class="iest-course-name">BEd in Early Childhood Education</div>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                
+                                <!-- Department of Teacher Education -->
+                                <div class="card iest-department-card">
+                                    <div class="card-header iest-department-header">
+                                        <h3 class="iest-department-title">Department of Teacher Education</h3>
+                                    </div>
+                                    <div class="card-body p-0">
+                                        <ul class="list-unstyled iest-courses-list">
+                                            <li class="iest-course-item">
+                                                <div class="iest-course-icon">
+                                                    <i class="fas fa-graduation-cap"></i>
+                                                </div>
+                                                <div class="iest-course-name">Diploma in Special Needs Education</div>
+                                            </li>
+                                            <li class="iest-course-item">
+                                                <div class="iest-course-icon">
+                                                    <i class="fas fa-university"></i>
+                                                </div>
+                                                <div class="iest-course-name">BEd in Special Education</div>
+                                            </li>
+                                            <li class="iest-course-item">
+                                                <div class="iest-course-icon">
+                                                    <i class="fas fa-graduation-cap"></i>
+                                                </div>
+                                                <div class="iest-course-name">Diploma in Teacher Education</div>
+                                            </li>
+                                            <li class="iest-course-item">
+                                                <div class="iest-course-icon">
+                                                    <i class="fas fa-university"></i>
+                                                </div>
+                                                <div class="iest-course-name">BEd (Bachelor of Education)</div>
+                                            </li>
+                                        </ul>
+                                    </div>
                                 </div>
                             </div>
-                            
-                            <ul class="iest-departments-list">
-                                <li class="iest-department-item">
-                                    <div class="iest-department-icon">
-                                        <i class="fas fa-hospital-user"></i>
-                                    </div>
-                                    <div class="iest-department-name">Department of Public Health</div>
-                                </li>
-                                <li class="iest-department-item">
-                                    <div class="iest-department-icon">
-                                        <i class="fas fa-brain"></i>
-                                    </div>
-                                    <div class="iest-department-name">Department of Psychology</div>
-                                </li>
-                                <li class="iest-department-item">
-                                    <div class="iest-department-icon">
-                                        <i class="fas fa-user-md"></i>
-                                    </div>
-                                    <div class="iest-department-name">Department of Allied Health Sciences</div>
-                                </li>
-                                <li class="iest-department-item">
-                                    <div class="iest-department-icon">
-                                        <i class="fas fa-spa"></i>
-                                    </div>
-                                    <div class="iest-department-name">Department of Cosmetology</div>
-                                </li>
-                            </ul>
                         </div>
                     </div>
                     
-                    <!-- Faculty of Engineering & Technology -->
-                    <div class="col-lg-6">
-                        <div class="iest-faculty-card">
-                            <div class="iest-faculty-header">
-                                <div class="iest-faculty-icon">
-                                    <i class="fas fa-cogs"></i>
+                    <!-- ⚙️ Faculty of Engineering & Technology -->
+                    <div class="accordion-item iest-accordion-item">
+                        <h2 class="accordion-header iest-accordion-header" id="iest-faculty-engineering-heading">
+                            <button class="accordion-button iest-accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#iest-faculty-engineering" aria-expanded="false" aria-controls="iest-faculty-engineering">
+                                <div class="iest-faculty-title">
+                                    <div class="iest-faculty-icon">
+                                        <i class="fas fa-cogs"></i>
+                                    </div>
+                                    <span>Faculty of Engineering & Technology</span>
                                 </div>
-                                <div>
-                                    <h3 class="iest-faculty-title">Faculty of Engineering & Technology</h3>
+                            </button>
+                        </h2>
+                        <div id="iest-faculty-engineering" class="accordion-collapse collapse" aria-labelledby="iest-faculty-engineering-heading" data-bs-parent="#iest-faculty-accordion">
+                            <div class="accordion-body iest-accordion-body">
+                                
+                                <!-- Department of Biomedical Engineering -->
+                                <div class="card iest-department-card">
+                                    <div class="card-header iest-department-header">
+                                        <h3 class="iest-department-title">Department of Biomedical Engineering</h3>
+                                    </div>
+                                    <div class="card-body p-0">
+                                        <ul class="list-unstyled iest-courses-list">
+                                            <li class="iest-course-item">
+                                                <div class="iest-course-icon">
+                                                    <i class="fas fa-graduation-cap"></i>
+                                                </div>
+                                                <div class="iest-course-name">Diploma in Biomedical Engineering</div>
+                                            </li>
+                                            <li class="iest-course-item">
+                                                <div class="iest-course-icon">
+                                                    <i class="fas fa-university"></i>
+                                                </div>
+                                                <div class="iest-course-name">BSc in Biomedical Engineering</div>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                
+                                <!-- Department of Chemical Engineering -->
+                                <div class="card iest-department-card">
+                                    <div class="card-header iest-department-header">
+                                        <h3 class="iest-department-title">Department of Chemical Engineering</h3>
+                                    </div>
+                                    <div class="card-body p-0">
+                                        <ul class="list-unstyled iest-courses-list">
+                                            <li class="iest-course-item">
+                                                <div class="iest-course-icon">
+                                                    <i class="fas fa-university"></i>
+                                                </div>
+                                                <div class="iest-course-name">BSc in Chemical Engineering</div>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                
+                                <!-- Department of Civil Engineering -->
+                                <div class="card iest-department-card">
+                                    <div class="card-header iest-department-header">
+                                        <h3 class="iest-department-title">Department of Civil Engineering</h3>
+                                    </div>
+                                    <div class="card-body p-0">
+                                        <ul class="list-unstyled iest-courses-list">
+                                            <li class="iest-course-item">
+                                                <div class="iest-course-icon">
+                                                    <i class="fas fa-graduation-cap"></i>
+                                                </div>
+                                                <div class="iest-course-name">Diploma in Civil Engineering</div>
+                                            </li>
+                                            <li class="iest-course-item">
+                                                <div class="iest-course-icon">
+                                                    <i class="fas fa-university"></i>
+                                                </div>
+                                                <div class="iest-course-name">BSc in Civil Engineering</div>
+                                            </li>
+                                            <li class="iest-course-item">
+                                                <div class="iest-course-icon">
+                                                    <i class="fas fa-university"></i>
+                                                </div>
+                                                <div class="iest-course-name">BSc in Building Services Engineering</div>
+                                            </li>
+                                            <li class="iest-course-item">
+                                                <div class="iest-course-icon">
+                                                    <i class="fas fa-graduation-cap"></i>
+                                                </div>
+                                                <div class="iest-course-name">Diploma in Environmental and Sustainable Engineering</div>
+                                            </li>
+                                            <li class="iest-course-item">
+                                                <div class="iest-course-icon">
+                                                    <i class="fas fa-university"></i>
+                                                </div>
+                                                <div class="iest-course-name">BSc in Environmental and Sustainable Engineering</div>
+                                            </li>
+                                            <li class="iest-course-item">
+                                                <div class="iest-course-icon">
+                                                    <i class="fas fa-graduation-cap"></i>
+                                                </div>
+                                                <div class="iest-course-name">Diploma in Quantity Surveying</div>
+                                            </li>
+                                            <li class="iest-course-item">
+                                                <div class="iest-course-icon">
+                                                    <i class="fas fa-university"></i>
+                                                </div>
+                                                <div class="iest-course-name">BSc in Quantity Surveying</div>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                
+                                <!-- Department of Computer Sciences & Engineering -->
+                                <div class="card iest-department-card">
+                                    <div class="card-header iest-department-header">
+                                        <h3 class="iest-department-title">Department of Computer Sciences & Engineering</h3>
+                                    </div>
+                                    <div class="card-body p-0">
+                                        <ul class="list-unstyled iest-courses-list">
+                                            <li class="iest-course-item">
+                                                <div class="iest-course-icon">
+                                                    <i class="fas fa-graduation-cap"></i>
+                                                </div>
+                                                <div class="iest-course-name">Diploma in Computer Science</div>
+                                            </li>
+                                            <li class="iest-course-item">
+                                                <div class="iest-course-icon">
+                                                    <i class="fas fa-university"></i>
+                                                </div>
+                                                <div class="iest-course-name">BSc in Computer Science</div>
+                                            </li>
+                                            <li class="iest-course-item">
+                                                <div class="iest-course-icon">
+                                                    <i class="fas fa-graduation-cap"></i>
+                                                </div>
+                                                <div class="iest-course-name">Diploma in Cyber Security</div>
+                                            </li>
+                                            <li class="iest-course-item">
+                                                <div class="iest-course-icon">
+                                                    <i class="fas fa-university"></i>
+                                                </div>
+                                                <div class="iest-course-name">BSc in Cyber Security</div>
+                                            </li>
+                                            <li class="iest-course-item">
+                                                <div class="iest-course-icon">
+                                                    <i class="fas fa-graduation-cap"></i>
+                                                </div>
+                                                <div class="iest-course-name">Diploma in Data Science</div>
+                                            </li>
+                                            <li class="iest-course-item">
+                                                <div class="iest-course-icon">
+                                                    <i class="fas fa-university"></i>
+                                                </div>
+                                                <div class="iest-course-name">BSc in Data Science & AI</div>
+                                            </li>
+                                            <li class="iest-course-item">
+                                                <div class="iest-course-icon">
+                                                    <i class="fas fa-graduation-cap"></i>
+                                                </div>
+                                                <div class="iest-course-name">Diploma in Network Engineering</div>
+                                            </li>
+                                            <li class="iest-course-item">
+                                                <div class="iest-course-icon">
+                                                    <i class="fas fa-university"></i>
+                                                </div>
+                                                <div class="iest-course-name">BSc in Network Technology</div>
+                                            </li>
+                                            <li class="iest-course-item">
+                                                <div class="iest-course-icon">
+                                                    <i class="fas fa-graduation-cap"></i>
+                                                </div>
+                                                <div class="iest-course-name">Diploma in Software Engineering</div>
+                                            </li>
+                                            <li class="iest-course-item">
+                                                <div class="iest-course-icon">
+                                                    <i class="fas fa-university"></i>
+                                                </div>
+                                                <div class="iest-course-name">BSc in Software Engineering</div>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                
+                                <!-- Department of Electrical & Electronic Engineering -->
+                                <div class="card iest-department-card">
+                                    <div class="card-header iest-department-header">
+                                        <h3 class="iest-department-title">Department of Electrical & Electronic Engineering</h3>
+                                    </div>
+                                    <div class="card-body p-0">
+                                        <ul class="list-unstyled iest-courses-list">
+                                            <li class="iest-course-item">
+                                                <div class="iest-course-icon">
+                                                    <i class="fas fa-graduation-cap"></i>
+                                                </div>
+                                                <div class="iest-course-name">Diploma in Electrical Engineering</div>
+                                            </li>
+                                            <li class="iest-course-item">
+                                                <div class="iest-course-icon">
+                                                    <i class="fas fa-university"></i>
+                                                </div>
+                                                <div class="iest-course-name">BSc in Electrical & Electronic Engineering</div>
+                                            </li>
+                                            <li class="iest-course-item">
+                                                <div class="iest-course-icon">
+                                                    <i class="fas fa-university"></i>
+                                                </div>
+                                                <div class="iest-course-name">BSc in Renewable Power Engineering</div>
+                                            </li>
+                                            <li class="iest-course-item">
+                                                <div class="iest-course-icon">
+                                                    <i class="fas fa-graduation-cap"></i>
+                                                </div>
+                                                <div class="iest-course-name">Diploma in Solar Power Technology</div>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                
+                                <!-- Department of Mechanical Engineering -->
+                                <div class="card iest-department-card">
+                                    <div class="card-header iest-department-header">
+                                        <h3 class="iest-department-title">Department of Mechanical Engineering</h3>
+                                    </div>
+                                    <div class="card-body p-0">
+                                        <ul class="list-unstyled iest-courses-list">
+                                            <li class="iest-course-item">
+                                                <div class="iest-course-icon">
+                                                    <i class="fas fa-graduation-cap"></i>
+                                                </div>
+                                                <div class="iest-course-name">Diploma in Mechanical Engineering</div>
+                                            </li>
+                                            <li class="iest-course-item">
+                                                <div class="iest-course-icon">
+                                                    <i class="fas fa-university"></i>
+                                                </div>
+                                                <div class="iest-course-name">BSc in Mechanical Engineering</div>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                
+                                <!-- Department of Textile & Apparel Engineering -->
+                                <div class="card iest-department-card">
+                                    <div class="card-header iest-department-header">
+                                        <h3 class="iest-department-title">Department of Textile & Apparel Engineering</h3>
+                                    </div>
+                                    <div class="card-body p-0">
+                                        <ul class="list-unstyled iest-courses-list">
+                                            <li class="iest-course-item">
+                                                <div class="iest-course-icon">
+                                                    <i class="fas fa-graduation-cap"></i>
+                                                </div>
+                                                <div class="iest-course-name">Diploma in Fashion Design</div>
+                                            </li>
+                                            <li class="iest-course-item">
+                                                <div class="iest-course-icon">
+                                                    <i class="fas fa-university"></i>
+                                                </div>
+                                                <div class="iest-course-name">BSc in Fashion & Apparel Technology</div>
+                                            </li>
+                                        </ul>
+                                    </div>
                                 </div>
                             </div>
-                            
-                            <ul class="iest-departments-list">
-                                <li class="iest-department-item">
-                                    <div class="iest-department-icon">
-                                        <i class="fas fa-hard-hat"></i>
-                                    </div>
-                                    <div class="iest-department-name">Department of Civil Engineering</div>
-                                </li>
-                                <li class="iest-department-item">
-                                    <div class="iest-department-icon">
-                                        <i class="fas fa-industry"></i>
-                                    </div>
-                                    <div class="iest-department-name">Department of Mechanical Engineering</div>
-                                </li>
-                                <li class="iest-department-item">
-                                    <div class="iest-department-icon">
-                                        <i class="fas fa-bolt"></i>
-                                    </div>
-                                    <div class="iest-department-name">Department of Electrical & Electronic Engineering</div>
-                                </li>
-                                <li class="iest-department-item">
-                                    <div class="iest-department-icon">
-                                        <i class="fas fa-vial"></i>
-                                    </div>
-                                    <div class="iest-department-name">Department of Chemical Engineering</div>
-                                </li>
-                                <li class="iest-department-item">
-                                    <div class="iest-department-icon">
-                                        <i class="fas fa-laptop-code"></i>
-                                    </div>
-                                    <div class="iest-department-name">Department of Computer Sciences & Engineering</div>
-                                </li>
-                                <li class="iest-department-item">
-                                    <div class="iest-department-icon">
+                        </div>
+                    </div>
+                    
+                    <!-- 🧬 Faculty of Health Sciences -->
+                    <div class="accordion-item iest-accordion-item">
+                        <h2 class="accordion-header iest-accordion-header" id="iest-faculty-health-heading">
+                            <button class="accordion-button iest-accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#iest-faculty-health" aria-expanded="false" aria-controls="iest-faculty-health">
+                                <div class="iest-faculty-title">
+                                    <div class="iest-faculty-icon">
                                         <i class="fas fa-heartbeat"></i>
                                     </div>
-                                    <div class="iest-department-name">Department of Biomedical Engineering</div>
-                                </li>
-                                <li class="iest-department-item">
-                                    <div class="iest-department-icon">
-                                        <i class="fas fa-tshirt"></i>
+                                    <span>Faculty of Health Sciences</span>
+                                </div>
+                            </button>
+                        </h2>
+                        <div id="iest-faculty-health" class="accordion-collapse collapse" aria-labelledby="iest-faculty-health-heading" data-bs-parent="#iest-faculty-accordion">
+                            <div class="accordion-body iest-accordion-body">
+                                
+                                <!-- Department of Allied and Public Health -->
+                                <div class="card iest-department-card">
+                                    <div class="card-header iest-department-header">
+                                        <h3 class="iest-department-title">Department of Allied and Public Health</h3>
                                     </div>
-                                    <div class="iest-department-name">Department of Textile & Apparel Engineering</div>
-                                </li>
-                            </ul>
+                                    <div class="card-body p-0">
+                                        <ul class="list-unstyled iest-courses-list">
+                                            <li class="iest-course-item">
+                                                <div class="iest-course-icon">
+                                                    <i class="fas fa-graduation-cap"></i>
+                                                </div>
+                                                <div class="iest-course-name">Diploma in Health Administration</div>
+                                            </li>
+                                            <li class="iest-course-item">
+                                                <div class="iest-course-icon">
+                                                    <i class="fas fa-university"></i>
+                                                </div>
+                                                <div class="iest-course-name">BSc in Healthcare Management</div>
+                                            </li>
+                                            <li class="iest-course-item">
+                                                <div class="iest-course-icon">
+                                                    <i class="fas fa-graduation-cap"></i>
+                                                </div>
+                                                <div class="iest-course-name">Diploma in Occupational Health & Safety</div>
+                                            </li>
+                                            <li class="iest-course-item">
+                                                <div class="iest-course-icon">
+                                                    <i class="fas fa-university"></i>
+                                                </div>
+                                                <div class="iest-course-name">BSc in Occupational Safety & Health</div>
+                                            </li>
+                                            <li class="iest-course-item">
+                                                <div class="iest-course-icon">
+                                                    <i class="fas fa-graduation-cap"></i>
+                                                </div>
+                                                <div class="iest-course-name">Diploma in Physiotherapy</div>
+                                            </li>
+                                            <li class="iest-course-item">
+                                                <div class="iest-course-icon">
+                                                    <i class="fas fa-university"></i>
+                                                </div>
+                                                <div class="iest-course-name">BSc in Physiotherapy</div>
+                                            </li>
+                                            <li class="iest-course-item">
+                                                <div class="iest-course-icon">
+                                                    <i class="fas fa-graduation-cap"></i>
+                                                </div>
+                                                <div class="iest-course-name">Diploma in Public Health</div>
+                                            </li>
+                                            <li class="iest-course-item">
+                                                <div class="iest-course-icon">
+                                                    <i class="fas fa-university"></i>
+                                                </div>
+                                                <div class="iest-course-name">BSc in Public Health</div>
+                                            </li>
+                                            <li class="iest-course-item">
+                                                <div class="iest-course-icon">
+                                                    <i class="fas fa-graduation-cap"></i>
+                                                </div>
+                                                <div class="iest-course-name">Diploma in Medical Laboratory Technology</div>
+                                            </li>
+                                            <li class="iest-course-item">
+                                                <div class="iest-course-icon">
+                                                    <i class="fas fa-university"></i>
+                                                </div>
+                                                <div class="iest-course-name">BSc in Medical Laboratory Sciences</div>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                
+                                <!-- Department of Cosmetology -->
+                                <div class="card iest-department-card">
+                                    <div class="card-header iest-department-header">
+                                        <h3 class="iest-department-title">Department of Cosmetology</h3>
+                                    </div>
+                                    <div class="card-body p-0">
+                                        <ul class="list-unstyled iest-courses-list">
+                                            <li class="iest-course-item">
+                                                <div class="iest-course-icon">
+                                                    <i class="fas fa-graduation-cap"></i>
+                                                </div>
+                                                <div class="iest-course-name">Diploma in Cosmetology</div>
+                                            </li>
+                                            <li class="iest-course-item">
+                                                <div class="iest-course-icon">
+                                                    <i class="fas fa-university"></i>
+                                                </div>
+                                                <div class="iest-course-name">BSc in Cosmetology</div>
+                                            </li>
+                                            <li class="iest-course-item">
+                                                <div class="iest-course-icon">
+                                                    <i class="fas fa-university"></i>
+                                                </div>
+                                                <div class="iest-course-name">BSc in Aesthetic Science</div>
+                                            </li>
+                                            <li class="iest-course-item">
+                                                <div class="iest-course-icon">
+                                                    <i class="fas fa-graduation-cap"></i>
+                                                </div>
+                                                <div class="iest-course-name">Diploma in Skin Care & Beauty Therapy</div>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                
+                                <!-- Department of Pharmacy and Pharmaceutical Sciences -->
+                                <div class="card iest-department-card">
+                                    <div class="card-header iest-department-header">
+                                        <h3 class="iest-department-title">Department of Pharmacy and Pharmaceutical Sciences</h3>
+                                    </div>
+                                    <div class="card-body p-0">
+                                        <ul class="list-unstyled iest-courses-list">
+                                            <li class="iest-course-item">
+                                                <div class="iest-course-icon">
+                                                    <i class="fas fa-graduation-cap"></i>
+                                                </div>
+                                                <div class="iest-course-name">Diploma in Pharmaceutical Science</div>
+                                            </li>
+                                            <li class="iest-course-item">
+                                                <div class="iest-course-icon">
+                                                    <i class="fas fa-university"></i>
+                                                </div>
+                                                <div class="iest-course-name">BSc in Pharmaceutical Science</div>
+                                            </li>
+                                            <li class="iest-course-item">
+                                                <div class="iest-course-icon">
+                                                    <i class="fas fa-graduation-cap"></i>
+                                                </div>
+                                                <div class="iest-course-name">Diploma in Pharmacy Practice</div>
+                                            </li>
+                                            <li class="iest-course-item">
+                                                <div class="iest-course-icon">
+                                                    <i class="fas fa-university"></i>
+                                                </div>
+                                                <div class="iest-course-name">BSc in Pharmacy</div>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                
+                                <!-- Department of Psychology -->
+                                <div class="card iest-department-card">
+                                    <div class="card-header iest-department-header">
+                                        <h3 class="iest-department-title">Department of Psychology</h3>
+                                    </div>
+                                    <div class="card-body p-0">
+                                        <ul class="list-unstyled iest-courses-list">
+                                            <li class="iest-course-item">
+                                                <div class="iest-course-icon">
+                                                    <i class="fas fa-graduation-cap"></i>
+                                                </div>
+                                                <div class="iest-course-name">Diploma in Child Psychology</div>
+                                            </li>
+                                            <li class="iest-course-item">
+                                                <div class="iest-course-icon">
+                                                    <i class="fas fa-university"></i>
+                                                </div>
+                                                <div class="iest-course-name">BSc in Child Development</div>
+                                            </li>
+                                            <li class="iest-course-item">
+                                                <div class="iest-course-icon">
+                                                    <i class="fas fa-graduation-cap"></i>
+                                                </div>
+                                                <div class="iest-course-name">Diploma in Counselling Psychology</div>
+                                            </li>
+                                            <li class="iest-course-item">
+                                                <div class="iest-course-icon">
+                                                    <i class="fas fa-university"></i>
+                                                </div>
+                                                <div class="iest-course-name">BSc in Counselling & Mental Health</div>
+                                            </li>
+                                            <li class="iest-course-item">
+                                                <div class="iest-course-icon">
+                                                    <i class="fas fa-graduation-cap"></i>
+                                                </div>
+                                                <div class="iest-course-name">Diploma in Psychology</div>
+                                            </li>
+                                            <li class="iest-course-item">
+                                                <div class="iest-course-icon">
+                                                    <i class="fas fa-university"></i>
+                                                </div>
+                                                <div class="iest-course-name">BSc in Psychology</div>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                     
-                    <!-- Faculty of Agriculture -->
-                    <div class="col-lg-6">
-                        <div class="iest-faculty-card">
-                            <div class="iest-faculty-header">
-                                <div class="iest-faculty-icon">
-                                    <i class="fas fa-tractor"></i>
+                    <!-- ⚖️ Faculty of Law -->
+                    <div class="accordion-item iest-accordion-item">
+                        <h2 class="accordion-header iest-accordion-header" id="iest-faculty-law-heading">
+                            <button class="accordion-button iest-accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#iest-faculty-law" aria-expanded="false" aria-controls="iest-faculty-law">
+                                <div class="iest-faculty-title">
+                                    <div class="iest-faculty-icon">
+                                        <i class="fas fa-gavel"></i>
+                                    </div>
+                                    <span>Faculty of Law</span>
                                 </div>
-                                <div>
-                                    <h3 class="iest-faculty-title">Faculty of Agriculture</h3>
+                            </button>
+                        </h2>
+                        <div id="iest-faculty-law" class="accordion-collapse collapse" aria-labelledby="iest-faculty-law-heading" data-bs-parent="#iest-faculty-accordion">
+                            <div class="accordion-body iest-accordion-body">
+                                
+                                <!-- Department of Human Rights -->
+                                <div class="card iest-department-card">
+                                    <div class="card-header iest-department-header">
+                                        <h3 class="iest-department-title">Department of Human Rights</h3>
+                                    </div>
+                                    <div class="card-body p-0">
+                                        <ul class="list-unstyled iest-courses-list">
+                                            <li class="iest-course-item">
+                                                <div class="iest-course-icon">
+                                                    <i class="fas fa-graduation-cap"></i>
+                                                </div>
+                                                <div class="iest-course-name">Diploma in Human Rights</div>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                
+                                <!-- Department of Public Law -->
+                                <div class="card iest-department-card">
+                                    <div class="card-header iest-department-header">
+                                        <h3 class="iest-department-title">Department of Public Law</h3>
+                                    </div>
+                                    <div class="card-body p-0">
+                                        <ul class="list-unstyled iest-courses-list">
+                                            <li class="iest-course-item">
+                                                <div class="iest-course-icon">
+                                                    <i class="fas fa-graduation-cap"></i>
+                                                </div>
+                                                <div class="iest-course-name">Diploma in Law</div>
+                                            </li>
+                                            <li class="iest-course-item">
+                                                <div class="iest-course-icon">
+                                                    <i class="fas fa-university"></i>
+                                                </div>
+                                                <div class="iest-course-name">LLB (Bachelor of Laws)</div>
+                                            </li>
+                                        </ul>
+                                    </div>
                                 </div>
                             </div>
-                            
-                            <ul class="iest-departments-list">
-                                <li class="iest-department-item">
-                                    <div class="iest-department-icon">
-                                        <i class="fas fa-seedling"></i>
-                                    </div>
-                                    <div class="iest-department-name">Department of Sustainable Agriculture</div>
-                                </li>
-                                <li class="iest-department-item">
-                                    <div class="iest-department-icon">
-                                        <i class="fas fa-paw"></i>
-                                    </div>
-                                    <div class="iest-department-name">Department of Animal Science</div>
-                                </li>
-                                <li class="iest-department-item">
-                                    <div class="iest-department-icon">
-                                        <i class="fas fa-utensils"></i>
-                                    </div>
-                                    <div class="iest-department-name">Department of Food Science</div>
-                                </li>
-                                <li class="iest-department-item">
-                                    <div class="iest-department-icon">
+                        </div>
+                    </div>
+                    
+                    <!-- 📊 Faculty of Management -->
+                    <div class="accordion-item iest-accordion-item">
+                        <h2 class="accordion-header iest-accordion-header" id="iest-faculty-management-heading">
+                            <button class="accordion-button iest-accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#iest-faculty-management" aria-expanded="false" aria-controls="iest-faculty-management">
+                                <div class="iest-faculty-title">
+                                    <div class="iest-faculty-icon">
                                         <i class="fas fa-chart-line"></i>
                                     </div>
-                                    <div class="iest-department-name">Department of Agribusiness Management</div>
-                                </li>
-                            </ul>
+                                    <span>Faculty of Management</span>
+                                </div>
+                            </button>
+                        </h2>
+                        <div id="iest-faculty-management" class="accordion-collapse collapse" aria-labelledby="iest-faculty-management-heading" data-bs-parent="#iest-faculty-accordion">
+                            <div class="accordion-body iest-accordion-body">
+                                
+                                <!-- Department of Accountancy & Finance -->
+                                <div class="card iest-department-card">
+                                    <div class="card-header iest-department-header">
+                                        <h3 class="iest-department-title">Department of Accountancy & Finance</h3>
+                                    </div>
+                                    <div class="card-body p-0">
+                                        <ul class="list-unstyled iest-courses-list">
+                                            <li class="iest-course-item">
+                                                <div class="iest-course-icon">
+                                                    <i class="fas fa-graduation-cap"></i>
+                                                </div>
+                                                <div class="iest-course-name">Diploma in Accounting</div>
+                                            </li>
+                                            <li class="iest-course-item">
+                                                <div class="iest-course-icon">
+                                                    <i class="fas fa-university"></i>
+                                                </div>
+                                                <div class="iest-course-name">BSc in Accounting & Finance</div>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                
+                                <!-- Department of Business Management -->
+                                <div class="card iest-department-card">
+                                    <div class="card-header iest-department-header">
+                                        <h3 class="iest-department-title">Department of Business Management</h3>
+                                    </div>
+                                    <div class="card-body p-0">
+                                        <ul class="list-unstyled iest-courses-list">
+                                            <li class="iest-course-item">
+                                                <div class="iest-course-icon">
+                                                    <i class="fas fa-graduation-cap"></i>
+                                                </div>
+                                                <div class="iest-course-name">Diploma in Business Management</div>
+                                            </li>
+                                            <li class="iest-course-item">
+                                                <div class="iest-course-icon">
+                                                    <i class="fas fa-university"></i>
+                                                </div>
+                                                <div class="iest-course-name">BBA (Bachelor of Business Administration)</div>
+                                            </li>
+                                            <li class="iest-course-item">
+                                                <div class="iest-course-icon">
+                                                    <i class="fas fa-graduation-cap"></i>
+                                                </div>
+                                                <div class="iest-course-name">Diploma in Logistics & Supply Chain</div>
+                                            </li>
+                                            <li class="iest-course-item">
+                                                <div class="iest-course-icon">
+                                                    <i class="fas fa-university"></i>
+                                                </div>
+                                                <div class="iest-course-name">BSc in Supply Chain Management</div>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                
+                                <!-- Department of Human Resources Management -->
+                                <div class="card iest-department-card">
+                                    <div class="card-header iest-department-header">
+                                        <h3 class="iest-department-title">Department of Human Resources Management</h3>
+                                    </div>
+                                    <div class="card-body p-0">
+                                        <ul class="list-unstyled iest-courses-list">
+                                            <li class="iest-course-item">
+                                                <div class="iest-course-icon">
+                                                    <i class="fas fa-graduation-cap"></i>
+                                                </div>
+                                                <div class="iest-course-name">Diploma in Human Resource Management</div>
+                                            </li>
+                                            <li class="iest-course-item">
+                                                <div class="iest-course-icon">
+                                                    <i class="fas fa-university"></i>
+                                                </div>
+                                                <div class="iest-course-name">BSc in Human Resource Management</div>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                
+                                <!-- Department of Marketing Management -->
+                                <div class="card iest-department-card">
+                                    <div class="card-header iest-department-header">
+                                        <h3 class="iest-department-title">Department of Marketing Management</h3>
+                                    </div>
+                                    <div class="card-body p-0">
+                                        <ul class="list-unstyled iest-courses-list">
+                                            <li class="iest-course-item">
+                                                <div class="iest-course-icon">
+                                                    <i class="fas fa-graduation-cap"></i>
+                                                </div>
+                                                <div class="iest-course-name">Diploma in Digital Marketing</div>
+                                            </li>
+                                            <li class="iest-course-item">
+                                                <div class="iest-course-icon">
+                                                    <i class="fas fa-university"></i>
+                                                </div>
+                                                <div class="iest-course-name">BSc in Digital Marketing</div>
+                                            </li>
+                                            <li class="iest-course-item">
+                                                <div class="iest-course-icon">
+                                                    <i class="fas fa-graduation-cap"></i>
+                                                </div>
+                                                <div class="iest-course-name">Diploma in Marketing Management</div>
+                                            </li>
+                                            <li class="iest-course-item">
+                                                <div class="iest-course-icon">
+                                                    <i class="fas fa-university"></i>
+                                                </div>
+                                                <div class="iest-course-name">BSc in Marketing Management</div>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                
+                                <!-- Department of Tourism Management -->
+                                <div class="card iest-department-card">
+                                    <div class="card-header iest-department-header">
+                                        <h3 class="iest-department-title">Department of Tourism Management</h3>
+                                    </div>
+                                    <div class="card-body p-0">
+                                        <ul class="list-unstyled iest-courses-list">
+                                            <li class="iest-course-item">
+                                                <div class="iest-course-icon">
+                                                    <i class="fas fa-graduation-cap"></i>
+                                                </div>
+                                                <div class="iest-course-name">Diploma in Tourism & Hotel Management</div>
+                                            </li>
+                                            <li class="iest-course-item">
+                                                <div class="iest-course-icon">
+                                                    <i class="fas fa-university"></i>
+                                                </div>
+                                                <div class="iest-course-name">BSc in Tourism & Hospitality Management</div>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                     
-                    <!-- Faculty of Management -->
-                    <div class="col-lg-6">
-                        <div class="iest-faculty-card">
-                            <div class="iest-faculty-header">
-                                <div class="iest-faculty-icon">
-                                    <i class="fas fa-chart-line"></i>
+                    <!-- 🔬 Faculty of Science -->
+                    <div class="accordion-item iest-accordion-item">
+                        <h2 class="accordion-header iest-accordion-header" id="iest-faculty-science-heading">
+                            <button class="accordion-button iest-accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#iest-faculty-science" aria-expanded="false" aria-controls="iest-faculty-science">
+                                <div class="iest-faculty-title">
+                                    <div class="iest-faculty-icon">
+                                        <i class="fas fa-flask"></i>
+                                    </div>
+                                    <span>Faculty of Science</span>
                                 </div>
-                                <div>
-                                    <h3 class="iest-faculty-title">Faculty of Management</h3>
+                            </button>
+                        </h2>
+                        <div id="iest-faculty-science" class="accordion-collapse collapse" aria-labelledby="iest-faculty-science-heading" data-bs-parent="#iest-faculty-accordion">
+                            <div class="accordion-body iest-accordion-body">
+                                
+                                <!-- Department of Applied Sciences -->
+                                <div class="card iest-department-card">
+                                    <div class="card-header iest-department-header">
+                                        <h3 class="iest-department-title">Department of Applied Sciences</h3>
+                                    </div>
+                                    <div class="card-body p-0">
+                                        <ul class="list-unstyled iest-courses-list">
+                                            <li class="iest-course-item">
+                                                <div class="iest-course-icon">
+                                                    <i class="fas fa-university"></i>
+                                                </div>
+                                                <div class="iest-course-name">BSc in Applied Chemistry and Industrial Technology</div>
+                                            </li>
+                                            <li class="iest-course-item">
+                                                <div class="iest-course-icon">
+                                                    <i class="fas fa-graduation-cap"></i>
+                                                </div>
+                                                <div class="iest-course-name">Diploma in Astronomy</div>
+                                            </li>
+                                            <li class="iest-course-item">
+                                                <div class="iest-course-icon">
+                                                    <i class="fas fa-university"></i>
+                                                </div>
+                                                <div class="iest-course-name">BSc in Astronomy</div>
+                                            </li>
+                                            <li class="iest-course-item">
+                                                <div class="iest-course-icon">
+                                                    <i class="fas fa-graduation-cap"></i>
+                                                </div>
+                                                <div class="iest-course-name">Diploma in BioTechnology</div>
+                                            </li>
+                                            <li class="iest-course-item">
+                                                <div class="iest-course-icon">
+                                                    <i class="fas fa-university"></i>
+                                                </div>
+                                                <div class="iest-course-name">BSc in BioTechnology</div>
+                                            </li>
+                                            <li class="iest-course-item">
+                                                <div class="iest-course-icon">
+                                                    <i class="fas fa-university"></i>
+                                                </div>
+                                                <div class="iest-course-name">BSc in Industrial Quality Management</div>
+                                            </li>
+                                            <li class="iest-course-item">
+                                                <div class="iest-course-icon">
+                                                    <i class="fas fa-graduation-cap"></i>
+                                                </div>
+                                                <div class="iest-course-name">Diploma in Biomedical Science</div>
+                                            </li>
+                                            <li class="iest-course-item">
+                                                <div class="iest-course-icon">
+                                                    <i class="fas fa-university"></i>
+                                                </div>
+                                                <div class="iest-course-name">BSc in Biomedical Science</div>
+                                            </li>
+                                            <li class="iest-course-item">
+                                                <div class="iest-course-icon">
+                                                    <i class="fas fa-graduation-cap"></i>
+                                                </div>
+                                                <div class="iest-course-name">Diploma in Quality Assurance</div>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                
+                                <!-- Department of Environmental & Earth Sciences -->
+                                <div class="card iest-department-card">
+                                    <div class="card-header iest-department-header">
+                                        <h3 class="iest-department-title">Department of Environmental & Earth Sciences</h3>
+                                    </div>
+                                    <div class="card-body p-0">
+                                        <ul class="list-unstyled iest-courses-list">
+                                            <li class="iest-course-item">
+                                                <div class="iest-course-icon">
+                                                    <i class="fas fa-graduation-cap"></i>
+                                                </div>
+                                                <div class="iest-course-name">Diploma in Climate Change Studies</div>
+                                            </li>
+                                            <li class="iest-course-item">
+                                                <div class="iest-course-icon">
+                                                    <i class="fas fa-university"></i>
+                                                </div>
+                                                <div class="iest-course-name">BSc in Climate Change & Sustainability</div>
+                                            </li>
+                                            <li class="iest-course-item">
+                                                <div class="iest-course-icon">
+                                                    <i class="fas fa-graduation-cap"></i>
+                                                </div>
+                                                <div class="iest-course-name">Diploma in Disaster Management</div>
+                                            </li>
+                                            <li class="iest-course-item">
+                                                <div class="iest-course-icon">
+                                                    <i class="fas fa-graduation-cap"></i>
+                                                </div>
+                                                <div class="iest-course-name">Diploma in Environmental Management and Sustainable Development</div>
+                                            </li>
+                                            <li class="iest-course-item">
+                                                <div class="iest-course-icon">
+                                                    <i class="fas fa-university"></i>
+                                                </div>
+                                                <div class="iest-course-name">BSc in Environmental Science</div>
+                                            </li>
+                                            <li class="iest-course-item">
+                                                <div class="iest-course-icon">
+                                                    <i class="fas fa-graduation-cap"></i>
+                                                </div>
+                                                <div class="iest-course-name">Diploma in GIS & Remote Sensing</div>
+                                            </li>
+                                            <li class="iest-course-item">
+                                                <div class="iest-course-icon">
+                                                    <i class="fas fa-graduation-cap"></i>
+                                                </div>
+                                                <div class="iest-course-name">Diploma in Renewable Energy</div>
+                                            </li>
+                                            <li class="iest-course-item">
+                                                <div class="iest-course-icon">
+                                                    <i class="fas fa-university"></i>
+                                                </div>
+                                                <div class="iest-course-name">BSc in Renewable Energy Technology</div>
+                                            </li>
+                                        </ul>
+                                    </div>
                                 </div>
                             </div>
-                            
-                            <ul class="iest-departments-list">
-                                <li class="iest-department-item">
-                                    <div class="iest-department-icon">
-                                        <i class="fas fa-briefcase"></i>
-                                    </div>
-                                    <div class="iest-department-name">Department of Business Management</div>
-                                </li>
-                                <li class="iest-department-item">
-                                    <div class="iest-department-icon">
-                                        <i class="fas fa-file-invoice-dollar"></i>
-                                    </div>
-                                    <div class="iest-department-name">Department of Accountancy & Finance</div>
-                                </li>
-                                <li class="iest-department-item">
-                                    <div class="iest-department-icon">
-                                        <i class="fas fa-users"></i>
-                                    </div>
-                                    <div class="iest-department-name">Department of Human Resources Management</div>
-                                </li>
-                                <li class="iest-department-item">
-                                    <div class="iest-department-icon">
-                                        <i class="fas fa-plane"></i>
-                                    </div>
-                                    <div class="iest-department-name">Department of Tourism Management</div>
-                                </li>
-                                <li class="iest-department-item">
-                                    <div class="iest-department-icon">
-                                        <i class="fas fa-bullhorn"></i>
-                                    </div>
-                                    <div class="iest-department-name">Department of Marketing Management</div>
-                                </li>
-                            </ul>
                         </div>
                     </div>
                     
-                    <!-- Faculty of Education -->
-                    <div class="col-lg-6">
-                        <div class="iest-faculty-card">
-                            <div class="iest-faculty-header">
-                                <div class="iest-faculty-icon">
-                                    <i class="fas fa-graduation-cap"></i>
+                    <!-- 🌍 Faculty of Social Sciences & Languages -->
+                    <div class="accordion-item iest-accordion-item">
+                        <h2 class="accordion-header iest-accordion-header" id="iest-faculty-social-heading">
+                            <button class="accordion-button iest-accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#iest-faculty-social" aria-expanded="false" aria-controls="iest-faculty-social">
+                                <div class="iest-faculty-title">
+                                    <div class="iest-faculty-icon">
+                                        <i class="fas fa-comments"></i>
+                                    </div>
+                                    <span>Faculty of Social Sciences & Languages</span>
                                 </div>
-                                <div>
-                                    <h3 class="iest-faculty-title">Faculty of Education</h3>
+                            </button>
+                        </h2>
+                        <div id="iest-faculty-social" class="accordion-collapse collapse" aria-labelledby="iest-faculty-social-heading" data-bs-parent="#iest-faculty-accordion">
+                            <div class="accordion-body iest-accordion-body">
+                                
+                                <!-- Department of Development Studies -->
+                                <div class="card iest-department-card">
+                                    <div class="card-header iest-department-header">
+                                        <h3 class="iest-department-title">Department of Development Studies</h3>
+                                    </div>
+                                    <div class="card-body p-0">
+                                        <ul class="list-unstyled iest-courses-list">
+                                            <li class="iest-course-item">
+                                                <div class="iest-course-icon">
+                                                    <i class="fas fa-graduation-cap"></i>
+                                                </div>
+                                                <div class="iest-course-name">Diploma in Development Studies</div>
+                                            </li>
+                                            <li class="iest-course-item">
+                                                <div class="iest-course-icon">
+                                                    <i class="fas fa-university"></i>
+                                                </div>
+                                                <div class="iest-course-name">BSc in Development Studies</div>
+                                            </li>
+                                            <li class="iest-course-item">
+                                                <div class="iest-course-icon">
+                                                    <i class="fas fa-university"></i>
+                                                </div>
+                                                <div class="iest-course-name">BSc in Social Sciences</div>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                
+                                <!-- Department of International Relations -->
+                                <div class="card iest-department-card">
+                                    <div class="card-header iest-department-header">
+                                        <h3 class="iest-department-title">Department of International Relations</h3>
+                                    </div>
+                                    <div class="card-body p-0">
+                                        <ul class="list-unstyled iest-courses-list">
+                                            <li class="iest-course-item">
+                                                <div class="iest-course-icon">
+                                                    <i class="fas fa-graduation-cap"></i>
+                                                </div>
+                                                <div class="iest-course-name">Diploma in International Relations</div>
+                                            </li>
+                                            <li class="iest-course-item">
+                                                <div class="iest-course-icon">
+                                                    <i class="fas fa-university"></i>
+                                                </div>
+                                                <div class="iest-course-name">BSc in International Relations</div>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                
+                                <!-- Department of Languages & Communication -->
+                                <div class="card iest-department-card">
+                                    <div class="card-header iest-department-header">
+                                        <h3 class="iest-department-title">Department of Languages & Communication</h3>
+                                    </div>
+                                    <div class="card-body p-0">
+                                        <ul class="list-unstyled iest-courses-list">
+                                            <li class="iest-course-item">
+                                                <div class="iest-course-icon">
+                                                    <i class="fas fa-graduation-cap"></i>
+                                                </div>
+                                                <div class="iest-course-name">Diploma in English</div>
+                                            </li>
+                                            <li class="iest-course-item">
+                                                <div class="iest-course-icon">
+                                                    <i class="fas fa-graduation-cap"></i>
+                                                </div>
+                                                <div class="iest-course-name">Diploma in Media</div>
+                                            </li>
+                                            <li class="iest-course-item">
+                                                <div class="iest-course-icon">
+                                                    <i class="fas fa-graduation-cap"></i>
+                                                </div>
+                                                <div class="iest-course-name">Diploma in Tamil</div>
+                                            </li>
+                                        </ul>
+                                    </div>
                                 </div>
                             </div>
-                            
-                            <ul class="iest-departments-list">
-                                <li class="iest-department-item">
-                                    <div class="iest-department-icon">
-                                        <i class="fas fa-chalkboard-teacher"></i>
-                                    </div>
-                                    <div class="iest-department-name">Department of Teacher Education</div>
-                                </li>
-                                <li class="iest-department-item">
-                                    <div class="iest-department-icon">
-                                        <i class="fas fa-child"></i>
-                                    </div>
-                                    <div class="iest-department-name">Department of Early Childhood Education</div>
-                                </li>
-                            </ul>
                         </div>
                     </div>
                     
-                    <!-- Faculty of Law -->
-                    <div class="col-lg-6">
-                        <div class="iest-faculty-card">
-                            <div class="iest-faculty-header">
-                                <div class="iest-faculty-icon">
-                                    <i class="fas fa-gavel"></i>
-                                </div>
-                                <div>
-                                    <h3 class="iest-faculty-title">Faculty of Law</h3>
-                                </div>
-                            </div>
-                            
-                            <ul class="iest-departments-list">
-                                <li class="iest-department-item">
-                                    <div class="iest-department-icon">
-                                        <i class="fas fa-landmark"></i>
-                                    </div>
-                                    <div class="iest-department-name">Department of Public Law & Governance</div>
-                                </li>
-                                <li class="iest-department-item">
-                                    <div class="iest-department-icon">
-                                        <i class="fas fa-balance-scale"></i>
-                                    </div>
-                                    <div class="iest-department-name">Department of Commercial Law</div>
-                                </li>
-                                <li class="iest-department-item">
-                                    <div class="iest-department-icon">
-                                        <i class="fas fa-handshake"></i>
-                                    </div>
-                                    <div class="iest-department-name">Department of Human Rights</div>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                    
-                    <!-- Faculty of Social Sciences & Languages -->
-                    <div class="col-lg-6">
-                        <div class="iest-faculty-card">
-                            <div class="iest-faculty-header">
-                                <div class="iest-faculty-icon">
-                                    <i class="fas fa-comments"></i>
-                                </div>
-                                <div>
-                                    <h3 class="iest-faculty-title">Faculty of Social Sciences & Languages</h3>
-                                </div>
-                            </div>
-                            
-                            <ul class="iest-departments-list">
-                                <li class="iest-department-item">
-                                    <div class="iest-department-icon">
-                                        <i class="fas fa-globe-asia"></i>
-                                    </div>
-                                    <div class="iest-department-name">Department of Development Studies</div>
-                                </li>
-                                <li class="iest-department-item">
-                                    <div class="iest-department-icon">
-                                        <i class="fas fa-language"></i>
-                                    </div>
-                                    <div class="iest-department-name">Department of Languages & Communication</div>
-                                </li>
-                                <li class="iest-department-item">
-                                    <div class="iest-department-icon">
-                                        <i class="fas fa-handshake"></i>
-                                    </div>
-                                    <div class="iest-department-name">Department of International Relations</div>
-                                </li>
-                            </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- 3️⃣ Call-to-Action Section -->
+        <section class="iest-section">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-lg-10">
+                        <div class="iest-cta">
+                            <h2 class="iest-cta-title">Explore Your Academic Path at IEST</h2>
+                            <p class="iest-cta-subtitle">Find the perfect programme that matches your interests and career goals. Our academic advisors are ready to guide you through the admissions process.</p>
+                            <a href="contact.html" class="btn iest-cta-btn">Contact Admissions</a>
                         </div>
                     </div>
                 </div>

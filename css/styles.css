@@ -19,7 +19,11 @@
         .iest-site .iest-navbar-brand {
             font-weight: 700;
             color: #fff !important;
-            font-size: 1rem;
+            font-size: 1.4rem;
+            text-wrap: wrap;
+            display: flex;
+            justify-content: center;
+            align-items: center;
         }
         
         .iest-site .iest-navbar-brand i {
@@ -40,6 +44,10 @@
             font-weight: 600 !important;
             color: #1a5f7a !important;
             background-color: rgba(26, 95, 122, 0.05);
+        }
+
+        .navbar-toggler i{
+            color: #fff !important;
         }
         
         /* Hero Carousel Swiper Styles */
@@ -258,7 +266,7 @@
             border-color: rgba(26, 95, 122, 0.2);
         }
         
-        .iest-site .iest-faculty-icon {
+        /* .iest-site .iest-faculty-icon {
             width: 70px;
             height: 70px;
             border-radius: 50%;
@@ -272,15 +280,15 @@
         .iest-site .iest-faculty-icon i {
             font-size: 1.8rem;
             color: #1a5f7a;
-        }
+        } */
         
-        .iest-site .iest-faculty-title {
+        /* .iest-site .iest-faculty-title {
             font-size: 1.3rem;
             font-weight: 600;
             color: #1a5f7a;
             margin-bottom: 0.8rem;
             text-align: center;
-        }
+        } */
         
         .iest-site .iest-faculty-desc {
             color: #666;
@@ -558,7 +566,7 @@
         
         @media (max-width: 768px) {
             .iest-site .iest-hero-slider {
-                height: 60vh;
+                /* height: 60vh; */
                 min-height: 400px;
             }
             
@@ -581,6 +589,9 @@
             .iest-site .iest-cta-title {
                 font-size: 2rem;
             }
+            .iest-site .iest-navbar-brand {
+                font-size: 1rem !important;
+            }
         }
         
         @media (max-width: 576px) {
@@ -590,6 +601,9 @@
             
             .iest-site .iest-hero-title {
                 font-size: 1.8rem;
+            }
+            .iest-site .iest-navbar-brand{
+                width: 80% !important;
             }
         }
 
@@ -931,7 +945,7 @@
             border-color: rgba(26, 95, 122, 0.2);
         }
         
-        .iest-site .iest-faculty-icon {
+        /* .iest-site .iest-faculty-icon {
             width: 80px;
             height: 80px;
             border-radius: 50%;
@@ -945,14 +959,14 @@
         .iest-site .iest-faculty-icon i {
             font-size: 2rem;
             color: #1a5f7a;
-        }
+        } */
         
-        .iest-site .iest-faculty-title {
+        /* .iest-site .iest-faculty-title {
             font-size: 1.4rem;
             font-weight: 600;
             color: #1a5f7a;
             margin-bottom: 1rem;
-        }
+        } */
         
         .iest-site .iest-faculty-desc {
             color: #666;
@@ -975,6 +989,122 @@
         .iest-site .iest-faculty-btn:hover {
             background-color: #1a5f7a;
             color: white;
+        }
+
+
+        /* Faculty Accordion Styles */
+        .iest-site .iest-faculty-accordion {
+            border: none;
+        }
+        
+        .iest-site .iest-accordion-item {
+            border: 1px solid rgba(26, 95, 122, 0.1);
+            border-radius: 8px !important;
+            margin-bottom: 1rem;
+            overflow: hidden;
+            background-color: white;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+            transition: all 0.3s ease;
+        }
+        
+        .iest-site .iest-accordion-item:hover {
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+        }
+        
+        .iest-site .iest-accordion-header {
+            margin-bottom: 0;
+        }
+        
+        .iest-site .iest-accordion-button {
+            background-color: white;
+            color: #1a5f7a;
+            font-weight: 600;
+            font-size: 1.2rem;
+            padding: 1.5rem 1.5rem;
+            border: none;
+            box-shadow: none;
+            transition: all 0.3s ease;
+        }
+        
+        .iest-site .iest-accordion-button:not(.collapsed) {
+            background-color: rgba(26, 95, 122, 0.05);
+            color: #1a5f7a;
+            box-shadow: none;
+        }
+        
+        .iest-site .iest-accordion-button:focus {
+            border-color: rgba(26, 95, 122, 0.2);
+            box-shadow: 0 0 0 0.25rem rgba(26, 95, 122, 0.1);
+        }
+        
+        .iest-site .iest-accordion-button::after {
+            background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%231a5f7a'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");
+            transform: scale(1.2);
+        }
+        
+        .iest-site .iest-accordion-button:not(.collapsed)::after {
+            background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%231a5f7a'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");
+        }
+        
+        .iest-site .iest-accordion-body {
+            padding: 0;
+            background-color: white;
+        }
+
+         /* Department Card Styles */
+        .iest-site .iest-department-card {
+            border: none;
+            border-radius: 0;
+            border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+            background-color: transparent;
+        }
+        
+        .iest-site .iest-department-card:last-child {
+            border-bottom: none;
+        }
+        
+        .iest-site .iest-department-header {
+            background-color: rgba(255, 255, 255, 0.9);
+            padding: 1.2rem 1.5rem;
+            border-left: 4px solid #ff7e30;
+            margin: 0;
+        }
+        
+        .iest-site .iest-department-title {
+            font-size: 1.1rem;
+            font-weight: 600;
+            color: #1a5f7a;
+            margin: 0;
+        }
+        
+        /* Courses List Styles */
+        .iest-site .iest-courses-list {
+            padding: 1rem 1.5rem 1rem 3rem;
+            margin: 0;
+        }
+        
+        .iest-site .iest-course-item {
+            padding: 0.5rem 0;
+            border-bottom: 1px solid rgba(0, 0, 0, 0.03);
+            display: flex;
+            align-items: flex-start;
+        }
+        
+        .iest-site .iest-course-item:last-child {
+            border-bottom: none;
+        }
+        
+        .iest-site .iest-course-icon {
+            color: #1a5f7a;
+            margin-right: 0.8rem;
+            margin-top: 0.2rem;
+            flex-shrink: 0;
+            width: 16px;
+        }
+        
+        .iest-site .iest-course-name {
+            color: #444;
+            font-size: 0.95rem;
         }
         
         /* Academic Excellence Section */
@@ -1187,22 +1317,29 @@
             border-bottom: 1px solid rgba(26, 95, 122, 0.1);
         }
         
+        /* Faculty Icons */
         .iest-site .iest-faculty-icon {
-            width: 60px;
-            height: 60px;
-            border-radius: 50%;
+            width: 40px;
+            height: 40px;
+            border-radius: 8px;
             background-color: rgba(26, 95, 122, 0.1);
             display: flex;
             align-items: center;
             justify-content: center;
-            margin-right: 1.5rem;
+            margin-right: 1rem;
             flex-shrink: 0;
         }
         
         .iest-site .iest-faculty-icon i {
-            font-size: 1.5rem;
+            font-size: 1.2rem;
             color: #1a5f7a;
         }
+        
+        .iest-site .iest-accordion-button .iest-faculty-title {
+            display: flex;
+            align-items: center;
+        }
+        
         
         .iest-site .iest-faculty-title {
             font-size: 1.6rem;
