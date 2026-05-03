@@ -89,6 +89,49 @@
                             </div>
                         </div>
                     </div>
+                
+
+                <!-- Slide 1 -->
+                    <div class="swiper-slide">
+                        <div class="iest-hero-slide" style="background-image: url(images/slider/slider4.jpg);" 
+                             role="img" aria-label="Modern university campus with students walking">
+                            <div class="iest-hero-overlay">
+                                <div class="container iest-hero-content">
+                                    <h1 class="iest-hero-title">Institute of Earth Sciences and Technology (IEST)</h1>
+                                    <p class="iest-hero-subtitle">Empowering future generations through Earth Sciences, Technology, and multidisciplinary education</p>
+                                    <button class="btn iest-hero-btn">Explore Programmes</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Slide 2 -->
+                    <div class="swiper-slide">
+                        <div class="iest-hero-slide" style="background-image: url('images/slider/slider5.jpg');" 
+                             role="img" aria-label="Students collaborating in a modern laboratory">
+                            <div class="iest-hero-overlay">
+                                <div class="container iest-hero-content">
+                                    <h1 class="iest-hero-title">World-Class Education in Earth Sciences</h1>
+                                    <p class="iest-hero-subtitle">Join a community of innovators, researchers, and leaders shaping the future of our planet</p>
+                                    <button class="btn iest-hero-btn">Discover Our Courses</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Slide 3 -->
+                    <div class="swiper-slide">
+                        <div class="iest-hero-slide" style="background-image: url('images/slider/slider6.jpg');" 
+                             role="img" aria-label="University library with students studying">
+                            <div class="iest-hero-overlay">
+                                <div class="container iest-hero-content">
+                                    <h1 class="iest-hero-title">Innovative Learning Environment</h1>
+                                    <p class="iest-hero-subtitle">State-of-the-art facilities and expert faculty dedicated to your academic success</p>
+                                    <button id="Applynow" data-type='Direct Apply from Website' class="btn iest-hero-btn Applynow">Apply Now</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
                 
                 <!-- Navigation Arrows -->
@@ -408,6 +451,8 @@
                 </div>
             </div>
         </section>
+
+        
 
         <!-- 8️⃣ Call to Action -->
         <section class="iest-cta">

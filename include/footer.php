@@ -1,3 +1,4 @@
+
  <footer id="contact" class="iest-footer">
             <div class="container">
                 <div class="row">
@@ -20,6 +21,22 @@
                             <p><i class="fas fa-map-marker-alt"></i> Colombo, Sri Lanka</p>
                             <p><i class="fas fa-clock"></i> Monday - Friday: 9:00 AM - 5:00 PM</p>
                         </div>
+                    </div>
+
+                    <div class="col-lg-4">
+                        <h3 class="iest-footer-title">International Collaboration</h3>
+                        <p class="mb-4">We collaborate with leading institutions worldwide to provide our students with global opportunities and exposure.</p>
+                        <div class="d-flex">
+                            <img src="images/partners/cpd.jpeg" alt="Partner 1" class="img-fluid m-2 w-25 ">
+                            <img src="images/partners/icu.jpeg" alt="Partner 2" class="img-fluid m-2 w-25 ">
+                            <img src="images/partners/ugc.jpeg" alt="Partner 2" class="img-fluid m-2 w-25 ">
+                            <img src="images/partners/unesco.jpeg" alt="Partner 2" class="img-fluid m-2 w-25 ">
+                            <img src="images/partners/whed.jpeg" alt="Partner 2" class="img-fluid m-2 w-25 ">
+                            <img src="images/partners/boi.jpeg" alt="Partner 2" class="img-fluid m-2 w-25 ">
+
+                        </div>
+                        
+
                     </div>
                     
                 </div>
