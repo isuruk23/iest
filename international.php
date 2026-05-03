@@ -59,7 +59,7 @@
         </section>
 
         <!-- 🔹 Introduction Section -->
-        <section class="iest-section">
+        <!-- <section class="iest-section">
             <div class="container">
                 <div class="row justify-content-center">
                     <div class="col-lg-10">
@@ -78,6 +78,61 @@
                             </p>
                         </div>
                     </div>
+                </div>
+            </div>
+        </section> -->
+
+        <section class="iest-section">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-6">
+                        <img src="images/azreca.jpeg" 
+                             alt="International students collaborating in academic setting" 
+                             class="iest-excellence-img">
+                    </div>
+                    <div class="col-lg-6 mb-5 mb-lg-0">
+                        <h2 class="iest-section-title">AZTECA UNIVERSITY</h2>
+                        <div class="iest-intro-text mb-4">
+                            <p>
+                                University Accreditation & Recognitions:
+                            </p>
+                        </div>
+                        
+                        <ul class="iest-highlight-list">
+                            <li>
+                                <i class="bi bi-check-lg"></i>
+                                Universidad Azteca is listed under the International Association of Universities (IAU) and the World Higher Education Database (WHED)
+                            </li>
+                            <li>
+                                 <i class="bi bi-check-lg"></i>
+                                Recognized by the University Grants Commission (UGC) of Sri Lanka based on listing in the Commonwealth Universities Yearbook and the World Higher Education Database
+                            </li>
+                            <li>
+                                <i class="bi bi-check-lg"></i>
+                                Programs accredited in the United States under NACES and AICE
+                            </li>
+                            <li>
+                                <i class="bi bi-check-lg"></i>
+                               Approved by the US Department of Education and US Federal
+                            </li>
+                            <li>
+                                 <i class="bi bi-check-lg"></i>
+                                Fully-Accredited by the International Association for Distance Learning (IADL), UK
+                            </li>
+                            <li>
+                                 <i class="bi bi-check-lg"></i>
+                                 Certified for Quality Management System (QMS) according to
+                            </li>
+                            <li> <i class="bi bi-check-lg"></i>
+                            Universidad Azteca is listed in the International Handbook of Universities by the United Nations Educational, Scientific and Cultural Organization (UNESCO)
+                            </li>
+                            <li> <i class="bi bi-check-lg"></i>
+                            Institutional and Programmatic Accreditation by TRACCERT
+                            </li>
+                        </ul>
+                    </div>
+                    
+                    
                 </div>
             </div>
         </section>
