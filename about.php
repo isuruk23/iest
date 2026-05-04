@@ -52,6 +52,7 @@
                 </nav>
                 <h1 class="iest-page-title">About Institute of Earth Sciences and Technology</h1>
                 <p class="iest-page-subtitle">Academic departments across our multidisciplinary faculties</p>
+                <p class="iest-page-subtitle">REG NO. PV 00357806</p>
             </div>
         </section>
 
@@ -59,6 +60,7 @@
         <section class="iest-section">
             <div class="container">
                 <h2 class="iest-section-title">About IEST</h2>
+                <p><i>REG NO. PV 00357806</i></p>
                 <p class="iest-section-subtitle">A premier institution dedicated to excellence in Earth Sciences, Technology, and multidisciplinary education</p>
                 
                 <div class="row align-items-center">
@@ -76,7 +78,7 @@
                         </div>
                     </div>
                     <div class="col-lg-6">
-                        <img src="images/logo.jpg" 
+                        <img src="images/logo.png" 
                              alt="IEST campus modern building with students" class="iest-about-img">
                     </div>
                 </div>
