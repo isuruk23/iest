@@ -1106,6 +1106,19 @@
             color: #444;
             font-size: 0.95rem;
         }
+
+        .iest-site .iest-course-download {
+            margin-left: 50px;
+            color: #1a5f7a;
+            border: 1px solid #1a5f7a;
+            border-radius: 10px;
+            padding: 5px;
+            
+        }
+        .iest-site .iest-course-download a{
+            text-decoration: none;
+            color: #1a5f7a;
+        }
         
         /* Academic Excellence Section */
         .iest-site .iest-excellence-card {

@@ -767,7 +767,10 @@
                                                 <div class="iest-course-icon">
                                                     <i class="fas fa-graduation-cap"></i>
                                                 </div>
+                                                <div class="d-flex align-items-center justify-content-between">
                                                 <div class="iest-course-name">Diploma in Cosmetology</div>
+                                                <div class="iest-course-download"><a href="pdf/diploma_in_cosmetology_guide_book.pdf" target="_blank">View Brochure</a></div>
+                                                </div>
                                             </li>
                                             <li class="iest-course-item">
                                                 <div class="iest-course-icon">
